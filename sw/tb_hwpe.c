@@ -82,6 +82,11 @@ int main() {
   if(((uint32_t *) d)[2] != 0x7f281848) errors++;
   if(((uint32_t *) d)[3] != 0x6127d834) errors++;
 
+  printf("a[0]=%d\n", ((uint32_t *) a)[0]);
+  printf("b[0]=%d\n", ((uint32_t *) b)[0]);
+  printf("c[0]=%d\n", ((uint32_t *) c)[0]);
+  printf("d[0]=%d\n", ((uint32_t *) d)[0]);
+
   // return errors
   *(int *) 0x80000000 = errors;
   return errors;

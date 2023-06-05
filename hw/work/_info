@@ -1,0 +1,5951 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+!s11f vlog 2023.1 2023.01, Jan 23 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/youssef/riscv/hwpe-tb/hw
+vclk_rst_gen
+Z2 !s10a 1685374798
+Z3 2/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/test/tb_tc_sram.sv
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1685374832
+!i10b 1
+!s100 dQLCzNZkKCmA;:_ePT^cl1
+I]5OH`oGiZ_24@UWKzN5732
+S1
+R1
+Z6 w1685374798
+8/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/clk_rst_gen.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/clk_rst_gen.sv
+!i122 0
+Z7 L0 12 52
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OE;L;2023.1;77
+r1
+!s85 0
+31
+Z10 !s108 1685374831.000000
+Z11 !s107 /home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_stream_slv.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_synch_driver.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/stream_watchdog.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/sim_timeout.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/signal_highlighter.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_verif_pkg.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_synch_holdable_driver.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_stream_mst.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_id_queue.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/clk_rst_gen.sv|
+Z12 !s90 -incr|-sv|-suppress|2583|-suppress|13314|+define+TARGET_RTL|+define+TARGET_SIMULATION|+define+TARGET_TEST|+define+TARGET_VSIM|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/clk_rst_gen.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_id_queue.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_stream_mst.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_synch_holdable_driver.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_verif_pkg.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/signal_highlighter.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/sim_timeout.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/stream_watchdog.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_synch_driver.sv|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_stream_slv.sv|
+!i113 0
+Z13 o-suppress 2583 -suppress 13314 -sv
+Z14 !s92 -suppress 2583 -suppress 13314 -sv +define+TARGET_RTL +define+TARGET_SIMULATION +define+TARGET_TEST +define+TARGET_VSIM
+Z15 tCvgOpt 0
+vcluster_clock_and2
+R2
+Z16 2/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/hwpe_stream_interfaces.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/hwpe_stream_package.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_assign.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_buffer.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_demux_static.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_deserialize.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_fence.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_merge.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_mux_static.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_serialize.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_split.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_ctrl.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_scm.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen_v2.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen_v3.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_sink_realign.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_source_realign.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_strbgen.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_streamer_queue.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_assign.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_mux.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_mux_static.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_reorder.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_reorder_static.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_earlystall.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_earlystall_sidech.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_scm_test_wrap.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_sidech.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_load_sidech.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_source.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_load.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_store.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_sink.sv
+R4
+Z17 !s110 1685374833
+!i10b 1
+!s100 @1A`=3Y3e=DLf4I]aRzKc3
+IV4PSX4R0NE>703jXj=Pk70
+S1
+R1
+R6
+Z18 8/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/cluster_clk_cells.sv
+Z19 F/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/cluster_clk_cells.sv
+!i122 7
+Z20 L0 11 13
+R8
+R9
+r1
+!s85 0
+31
+Z21 !s108 1685374833.000000
+Z22 !s107 /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_clk_cells.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/cluster_clk_cells.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_clock_gating_async.sv|
+Z23 !s90 -incr|-sv|-suppress|2583|-suppress|13314|+define+TARGET_RTL|+define+TARGET_SIMULATION|+define+TARGET_TEST|+define+TARGET_VSIM|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_clock_gating_async.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/cluster_clk_cells.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_clk_cells.sv|
+!i113 0
+R13
+R14
+R15
+vcluster_clock_buffer
+R2
+R16
+R4
+R17
+!i10b 1
+!s100 LDg5LA<4g]Y_`XEKG^P3a3
+IX^bVcc:c52iVUJfhcSAi>2
+S1
+R1
+R6
+R18
+R19
+!i122 7
+Z24 L0 25 11
+R8
+R9
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R13
+R14
+R15
+vcluster_clock_gating
+R2
+R16
+R4
+R17
+!i10b 1
+!s100 Fa4@dRc@7?BGaBCR<`g`C2
+IKW[HVTm>BY>>a`4SUC5Nz3
+S1
+R1
+R6
+R18
+R19
+!i122 7
+Z25 L0 38 15
+R8
+R9
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R13
+R14
+R15
+vcluster_clock_inverter
+R2
+R16
+R4
+R17
+!i10b 1
+!s100 QP4jB1C;a7Y07ZCKBX9aB0
+I9J]goAZc0^dD?LGah6fgF3
+S1
+R1
+R6
+R18
+R19
+!i122 7
+Z26 L0 54 11
+R8
+R9
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R13
+R14
+R15
+vcluster_clock_mux2
+R2
+R16
+R4
+R17
+!i10b 1
+!s100 P6iMlPL[WP5I]=5c^OV^A1
+IODB^YhE8^L=;Y6:LFgccb1
+S1
+R1
+R6
+R18
+R19
+!i122 7
+Z27 L0 66 15
+R8
+R9
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R13
+R14
+R15
+vcluster_clock_xor2
+R2
+R16
+R4
+R17
+!i10b 1
+!s100 Z<keUPN3c7d3j2ZSZ:]d=1
+I9EMjhk[VNRA]BiA=G30292
+S1
+R1
+R6
+R18
+R19
+!i122 7
+Z28 L0 82 13
+R8
+R9
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R13
+R14
+R15
+vcluster_level_shifter_in
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 bO[1flhG=mlkzOBFFaj[I2
+I`CZH0DDAVoa227hgcmaPb1
+S1
+R1
+R6
+Z29 8/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/cluster_pwr_cells.sv
+Z30 F/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/cluster_pwr_cells.sv
+!i122 4
+Z31 L0 14 8
+R8
+R9
+r1
+!s85 0
+31
+Z32 !s108 1685374832.000000
+Z33 !s107 /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_pwr_cells.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_buffer.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pad_functional.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/generic_rom.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/generic_memory.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/cluster_pwr_cells.sv|
+Z34 !s90 -incr|-sv|-suppress|2583|-suppress|13314|+define+TARGET_RTL|+define+TARGET_SIMULATION|+define+TARGET_TEST|+define+TARGET_VSIM|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/cluster_pwr_cells.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/generic_memory.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/generic_rom.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pad_functional.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_buffer.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_pwr_cells.sv|
+!i113 0
+R13
+R14
+R15
+vcluster_level_shifter_in_clamp
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 TV89VmiQ3feMLzzAXVPY43
+I=1PDA4?67PmVf]SBdCXDL2
+S1
+R1
+R6
+R29
+R30
+!i122 4
+Z35 L0 23 9
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vcluster_level_shifter_inout
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 CEWB5ST@;94SPUXzJj^G[2
+I2bmj636UnN_E80dzF]hg]0
+S1
+R1
+R6
+R29
+R30
+!i122 4
+Z36 L0 33 8
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vcluster_level_shifter_out
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 F2Ye3mUaNblZEVA@@iQVe0
+I?3J9_64BdB3?Z`IhL7HfK3
+S1
+R1
+R6
+R29
+R30
+!i122 4
+Z37 L0 42 8
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vcluster_level_shifter_out_clamp
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 05oL`Wlz_8DP`d2`gBK:R0
+I7@Pe^ANjb=@NH3[z`f_`l3
+S1
+R1
+R6
+R29
+R30
+!i122 4
+Z38 L0 51 9
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vgeneric_memory
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 W:O60bV1]E;d7Hl`4X5W@1
+Ihc:g0LgHajGZK>1kfEMXl2
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/generic_memory.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/generic_memory.sv
+!i122 4
+L0 11 62
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vgeneric_rom
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 nJ`9nITNEdQ>>:jo2X5DW1
+IcV^iG1^0AEDkHDlP3bjc:2
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/generic_rom.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/generic_rom.sv
+!i122 4
+L0 11 32
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+Yhwpe_ctrl_intf_periph
+Z39 !s10a 1685374788
+R16
+R4
+R17
+!i10b 1
+!s100 kIX?YGid?=^bA3<^NL:o82
+I>Z7D5YOIAN2GcjSkh<EkK2
+S1
+R1
+Z40 w1685374788
+8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_interfaces.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_interfaces.sv
+!i122 8
+Z41 L0 21 0
+R8
+R9
+r1
+!s85 0
+31
+R21
+Z42 !s107 /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_slave.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch_test_wrap.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_uloop.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_seq_mult.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_package.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_interfaces.sv|
+Z43 !s90 -incr|-sv|-suppress|2583|-suppress|13314|+define+TARGET_RTL|+define+TARGET_SIMULATION|+define+TARGET_TEST|+define+TARGET_VSIM|+incdir+/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_interfaces.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_package.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_seq_mult.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_uloop.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch_test_wrap.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_slave.sv|
+!i113 0
+R13
+Z44 !s92 -suppress 2583 -suppress 13314 -sv +define+TARGET_RTL +define+TARGET_SIMULATION +define+TARGET_TEST +define+TARGET_VSIM +incdir+/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl
+R15
+Xhwpe_ctrl_package
+R39
+R16
+R4
+R17
+!i10b 1
+!s100 TVFmGmYmV]mV8N;gZ;0@C1
+If9RgYLz`V1cgo[<8e:fIa0
+S1
+R1
+R40
+8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_package.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_package.sv
+!i122 8
+Z45 L0 16 0
+Vf9RgYLz`V1cgo[<8e:fIa0
+R9
+r1
+!s85 0
+31
+R21
+R42
+R43
+!i113 0
+R13
+R44
+R15
+vhwpe_ctrl_regfile
+R39
+R16
+R4
+Z46 DXx4 work 17 hwpe_ctrl_package 0 22 f9RgYLz`V1cgo[<8e:fIa0
+R17
+!i10b 1
+!s100 [5m6G_TlYJEYeH=;BZ9gP3
+I2J_Vd_`e3neSCQPmP[ZR40
+S1
+R1
+R40
+8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile.sv
+!i122 8
+L0 17 407
+R8
+R9
+r1
+!s85 0
+31
+R21
+R42
+R43
+!i113 0
+R13
+R44
+R15
+vhwpe_ctrl_regfile_latch
+R39
+R16
+R4
+R17
+!i10b 1
+!s100 :Z@F6W=O9l<5iV`7]0aj[1
+I1YN]@a?T7O2=L^Wza6OC>3
+S1
+R1
+R40
+8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch.sv
+!i122 8
+L0 16 167
+R8
+R9
+r1
+!s85 0
+31
+R21
+R42
+R43
+!i113 0
+R13
+R44
+R15
+vhwpe_ctrl_regfile_latch_test_wrap
+R39
+R16
+R4
+R17
+!i10b 1
+!s100 AogWDZfI_H:G[UWOezA062
+InPDUb1Q7SPJVLNImA3:co3
+S1
+R1
+R40
+8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch_test_wrap.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch_test_wrap.sv
+!i122 8
+L0 16 89
+R8
+R9
+r1
+!s85 0
+31
+R21
+R42
+R43
+!i113 0
+R13
+R44
+R15
+vhwpe_ctrl_seq_mult
+R39
+R16
+R4
+R46
+R17
+!i10b 1
+!s100 @8f4ONM8F0V4jEn5h0EVc0
+Ie8bTD4m0IT5m=BlQMl9EX1
+S1
+R1
+R40
+8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_seq_mult.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_seq_mult.sv
+!i122 8
+L0 20 71
+R8
+R9
+r1
+!s85 0
+31
+R21
+R42
+R43
+!i113 0
+R13
+R44
+R15
+vhwpe_ctrl_slave
+R39
+R16
+R4
+R46
+R17
+!i10b 1
+!s100 G>LPbz_3HNc4gB?2^kjbF0
+I?zMc^DMkZYBJYI0:Nz@2V0
+S1
+R1
+R40
+8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_slave.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_slave.sv
+!i122 8
+L0 17 456
+R8
+R9
+r1
+!s85 0
+31
+R21
+R42
+R43
+!i113 0
+R13
+R44
+R15
+vhwpe_ctrl_uloop
+R39
+R16
+R4
+R46
+R17
+!i10b 1
+!s100 W^X9:j=C^oQi?4_0N6L;03
+ILPd38IM6BnPa=CND:_hKo0
+S1
+R1
+R40
+8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_uloop.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_uloop.sv
+!i122 8
+L0 22 333
+R8
+R9
+r1
+!s85 0
+31
+R21
+R42
+R43
+!i113 0
+R13
+R44
+R15
+vhwpe_stream_addressgen
+r1
+R17
+Z47 !s10a 1685374789
+R4
+Z48 DXx4 work 19 hwpe_stream_package 0 22 ;bSF^?T9fHZ:B>W1KWYOd1
+DXx4 work 30 hwpe_stream_addressgen_sv_unit 0 22 bifjN`3n;:BIWmVh?DL:03
+R8
+!i10b 1
+!s100 82?E3YmiUOS1OgobnXhVJ1
+I7m7kBD09<m<zLa;X2XZD<3
+!s105 hwpe_stream_addressgen_sv_unit
+S1
+R1
+Z49 w1685374789
+Z50 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen.sv
+Z51 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen.sv
+!i122 9
+L0 141 385
+R9
+31
+R21
+Z52 !s107 /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_sink.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_store.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_load.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_source.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_load_sidech.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_sidech.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_scm_test_wrap.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_earlystall_sidech.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_earlystall.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_reorder_static.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_reorder.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_mux_static.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_mux.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_assign.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_streamer_queue.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_strbgen.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_source_realign.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_sink_realign.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen_v3.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen_v2.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_scm.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_ctrl.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_split.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_serialize.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_mux_static.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_merge.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_fence.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_deserialize.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_demux_static.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_buffer.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_assign.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/hwpe_stream_package.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/hwpe_stream_interfaces.sv|
+Z53 !s90 -incr|-sv|-suppress|2583|-suppress|13314|+define+TARGET_RTL|+define+TARGET_SIMULATION|+define+TARGET_TEST|+define+TARGET_VSIM|+incdir+/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/hwpe_stream_interfaces.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/hwpe_stream_package.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_assign.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_buffer.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_demux_static.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_deserialize.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_fence.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_merge.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_mux_static.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_serialize.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_split.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_ctrl.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_scm.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen_v2.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen_v3.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_sink_realign.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_source_realign.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_strbgen.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_streamer_queue.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_assign.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_mux.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_mux_static.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_reorder.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_reorder_static.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_earlystall.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_earlystall_sidech.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_scm_test_wrap.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_sidech.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_load_sidech.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_source.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_load.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_store.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_sink.sv|
+!i113 0
+R13
+Z54 !s92 -suppress 2583 -suppress 13314 -sv +define+TARGET_RTL +define+TARGET_SIMULATION +define+TARGET_TEST +define+TARGET_VSIM +incdir+/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl
+R15
+Xhwpe_stream_addressgen_sv_unit
+R47
+R16
+R4
+R48
+R17
+VbifjN`3n;:BIWmVh?DL:03
+r1
+!s85 0
+!i10b 1
+!s100 M66C4aI[BL0k@]M:MP:kL2
+IbifjN`3n;:BIWmVh?DL:03
+!i103 1
+S1
+R1
+R49
+R50
+R51
+!i122 9
+L0 139 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_addressgen_v2
+r1
+R17
+R47
+R4
+R48
+DXx4 work 33 hwpe_stream_addressgen_v2_sv_unit 0 22 ``dD8J:2HE5C`2BT<N]?T0
+R8
+!i10b 1
+!s100 Vd5z5[ENRBGQ5moM:Zz_61
+IIk8ezWkEF`<3IH]F1C8Y10
+!s105 hwpe_stream_addressgen_v2_sv_unit
+S1
+R1
+R49
+Z55 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen_v2.sv
+Z56 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen_v2.sv
+!i122 9
+L0 23 192
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_addressgen_v2_sv_unit
+R47
+R16
+R4
+R48
+R17
+V``dD8J:2HE5C`2BT<N]?T0
+r1
+!s85 0
+!i10b 1
+!s100 8dke[52B_jS@eB0;kH]gT0
+I``dD8J:2HE5C`2BT<N]?T0
+!i103 1
+S1
+R1
+R49
+R55
+R56
+!i122 9
+R41
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_addressgen_v3
+r1
+R17
+R47
+R4
+R48
+DXx4 work 33 hwpe_stream_addressgen_v3_sv_unit 0 22 U@>leOCbRATl7QUgRVB^A0
+R8
+!i10b 1
+!s100 GaT>[U42EEH:K5L7lR9L]3
+Ioj[<JhBWRYCedcH^3IG181
+!s105 hwpe_stream_addressgen_v3_sv_unit
+S1
+R1
+R49
+Z57 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen_v3.sv
+Z58 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen_v3.sv
+!i122 9
+L0 133 148
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_addressgen_v3_sv_unit
+R47
+R16
+R4
+R48
+R17
+VU@>leOCbRATl7QUgRVB^A0
+r1
+!s85 0
+!i10b 1
+!s100 jV_45zJ?NKMEHWHPCCbTl2
+IU@>leOCbRATl7QUgRVB^A0
+!i103 1
+S1
+R1
+R49
+R57
+R58
+!i122 9
+L0 131 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_assign
+r1
+R17
+R47
+R4
+R48
+DXx4 work 26 hwpe_stream_assign_sv_unit 0 22 ];hYAXMNBL;DgQ@271eCY3
+R8
+!i10b 1
+!s100 [24^iTnQe>SkZiJ1>2^c<1
+IS2]GVSS1U@Q9[0^8KGkA20
+!s105 hwpe_stream_assign_sv_unit
+S1
+R1
+R49
+Z59 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_assign.sv
+Z60 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_assign.sv
+!i122 9
+L0 23 13
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_assign_sv_unit
+R47
+R16
+R4
+R48
+R17
+V];hYAXMNBL;DgQ@271eCY3
+r1
+!s85 0
+!i10b 1
+!s100 J9P;CnU0MXY`c9C57Q70G1
+I];hYAXMNBL;DgQ@271eCY3
+!i103 1
+S1
+R1
+R49
+R59
+R60
+!i122 9
+R41
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_buffer
+r1
+R17
+R47
+R4
+R48
+DXx4 work 26 hwpe_stream_buffer_sv_unit 0 22 @2PPfm^TCJhFiiJC34g3J2
+R8
+!i10b 1
+!s100 7bF[5Y:ZIS`QC@_J2Ae163
+IX`YN[a1Z7I0XoJUEDC9GX1
+!s105 hwpe_stream_buffer_sv_unit
+S1
+R1
+R49
+Z61 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_buffer.sv
+Z62 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_buffer.sv
+!i122 9
+L0 25 54
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_buffer_sv_unit
+R47
+R16
+R4
+R48
+R17
+V@2PPfm^TCJhFiiJC34g3J2
+r1
+!s85 0
+!i10b 1
+!s100 ck;R5^4V<:H@QG3d=_kNL3
+I@2PPfm^TCJhFiiJC34g3J2
+!i103 1
+S1
+R1
+R49
+R61
+R62
+!i122 9
+Z63 L0 23 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_demux_static
+r1
+R17
+R47
+R4
+R48
+DXx4 work 32 hwpe_stream_demux_static_sv_unit 0 22 gYA`k?>CfP8HmZ[CoC23L2
+R8
+!i10b 1
+!s100 MnLPk0b^:IPL;@nC]?Idf1
+IBZoJB?nZU?=M^HHBCzNm43
+!s105 hwpe_stream_demux_static_sv_unit
+S1
+R1
+R49
+Z64 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_demux_static.sv
+Z65 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_demux_static.sv
+!i122 9
+L0 44 32
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_demux_static_sv_unit
+R47
+R16
+R4
+R48
+R17
+VgYA`k?>CfP8HmZ[CoC23L2
+r1
+!s85 0
+!i10b 1
+!s100 =XBlS@S^fQ4H>kW9>o=G]3
+IgYA`k?>CfP8HmZ[CoC23L2
+!i103 1
+S1
+R1
+R49
+R64
+R65
+!i122 9
+L0 42 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_deserialize
+r1
+R17
+R47
+R4
+R48
+DXx4 work 31 hwpe_stream_deserialize_sv_unit 0 22 ZWZ0hl41c>kW^1F8B4GR03
+R8
+!i10b 1
+!s100 `l?9T4I2ePj3j;N<Al^hT0
+IPU0OHQDe^LS7?;=IYGS1Y3
+!s105 hwpe_stream_deserialize_sv_unit
+S1
+R1
+R49
+Z66 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_deserialize.sv
+Z67 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_deserialize.sv
+!i122 9
+L0 49 92
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_deserialize_sv_unit
+R47
+R16
+R4
+R48
+R17
+VZWZ0hl41c>kW^1F8B4GR03
+r1
+!s85 0
+!i10b 1
+!s100 d9_IdOHS50@e?1=WT4YL_2
+IZWZ0hl41c>kW^1F8B4GR03
+!i103 1
+S1
+R1
+R49
+R66
+R67
+!i122 9
+Z68 L0 47 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_fence
+r1
+R17
+R47
+R4
+R48
+DXx4 work 25 hwpe_stream_fence_sv_unit 0 22 YA879J[Z4ZXDNiR=B>7;O1
+R8
+!i10b 1
+!s100 oi_TJLROh76R[Xnm8iI;I3
+Ihfg0SI8DiIizL=J__>HMQ1
+!s105 hwpe_stream_fence_sv_unit
+S1
+R1
+R49
+Z69 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_fence.sv
+Z70 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_fence.sv
+!i122 9
+L0 43 76
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_fence_sv_unit
+R47
+R16
+R4
+R48
+R17
+VYA879J[Z4ZXDNiR=B>7;O1
+r1
+!s85 0
+!i10b 1
+!s100 UE2GBVK]nJIRJQSM6kOIN0
+IYA879J[Z4ZXDNiR=B>7;O1
+!i103 1
+S1
+R1
+R49
+R69
+R70
+!i122 9
+L0 41 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_fifo
+r1
+R17
+R47
+R4
+R48
+DXx4 work 24 hwpe_stream_fifo_sv_unit 0 22 LkLkYVHKB]YaKbekS6TzE3
+R8
+!i10b 1
+!s100 :ZC7^0`2>WXm0d@I]k:<B0
+I9;@<9lUOL6C:CPFnVo:RH0
+!s105 hwpe_stream_fifo_sv_unit
+S1
+R1
+R49
+Z71 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo.sv
+Z72 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo.sv
+!i122 9
+L0 64 236
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_fifo_ctrl
+r1
+R17
+R47
+R4
+R48
+DXx4 work 29 hwpe_stream_fifo_ctrl_sv_unit 0 22 o?b:EQJI[SD^=Z=M=O[b_1
+R8
+!i10b 1
+!s100 14=YGemRDM6[_oHhfGiVk2
+Imk^cKW`WjUb0<GiJe2DFl2
+!s105 hwpe_stream_fifo_ctrl_sv_unit
+S1
+R1
+R49
+Z73 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_ctrl.sv
+Z74 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_ctrl.sv
+!i122 9
+L0 39 147
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_fifo_ctrl_sv_unit
+R47
+R16
+R4
+R48
+R17
+Vo?b:EQJI[SD^=Z=M=O[b_1
+r1
+!s85 0
+!i10b 1
+!s100 N6mAhjR5Gz16lnFg`_DF>0
+Io?b:EQJI[SD^=Z=M=O[b_1
+!i103 1
+S1
+R1
+R49
+R73
+R74
+!i122 9
+Z75 L0 37 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_fifo_earlystall
+r1
+R17
+R47
+R4
+R48
+DXx4 work 35 hwpe_stream_fifo_earlystall_sv_unit 0 22 N=S5QombiYR[<Y?ZETJo:2
+R8
+!i10b 1
+!s100 06=Z6ncGY=<m[iJInTf0L1
+IjJnm`n`99jJ94[RdHNV7D1
+!s105 hwpe_stream_fifo_earlystall_sv_unit
+S1
+R1
+R49
+Z76 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_earlystall.sv
+Z77 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_earlystall.sv
+!i122 9
+L0 63 204
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_fifo_earlystall_sidech
+r1
+R17
+R47
+R4
+R48
+DXx4 work 42 hwpe_stream_fifo_earlystall_sidech_sv_unit 0 22 4i110:=F:>:SN1Q1Lm@Y42
+R8
+!i10b 1
+!s100 ]nzU3XL5OSQKdZMb0S99<1
+IDG?IL@[FhedFb_XXEV[3n0
+!s105 hwpe_stream_fifo_earlystall_sidech_sv_unit
+S1
+R1
+R49
+Z78 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_earlystall_sidech.sv
+Z79 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_earlystall_sidech.sv
+!i122 9
+L0 19 208
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_fifo_earlystall_sidech_sv_unit
+R47
+R16
+R4
+R48
+R17
+V4i110:=F:>:SN1Q1Lm@Y42
+r1
+!s85 0
+!i10b 1
+!s100 Gggl>nM^Y0BNGzM]nzQZ11
+I4i110:=F:>:SN1Q1Lm@Y42
+!i103 1
+S1
+R1
+R49
+R78
+R79
+!i122 9
+Z80 L0 17 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_fifo_earlystall_sv_unit
+R47
+R16
+R4
+R48
+R17
+VN=S5QombiYR[<Y?ZETJo:2
+r1
+!s85 0
+!i10b 1
+!s100 dD]dCfa:aggX2KaRi8I`j1
+IN=S5QombiYR[<Y?ZETJo:2
+!i103 1
+S1
+R1
+R49
+R76
+R77
+!i122 9
+L0 61 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_fifo_scm
+r1
+R17
+R47
+R4
+R48
+DXx4 work 28 hwpe_stream_fifo_scm_sv_unit 0 22 SnOY?V?HH@Ic]K9iZ>oQ:3
+R8
+!i10b 1
+!s100 LJ9DUK>_B4oMniPe2_62[3
+I8RUM`DWj_=[EBQBCOmVF;3
+!s105 hwpe_stream_fifo_scm_sv_unit
+S1
+R1
+R49
+Z81 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_scm.sv
+Z82 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_scm.sv
+!i122 9
+L0 19 133
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_fifo_scm_sv_unit
+R47
+R16
+R4
+R48
+R17
+VSnOY?V?HH@Ic]K9iZ>oQ:3
+r1
+!s85 0
+!i10b 1
+!s100 =[41Fhm^1CEz3WEG1L;6B2
+ISnOY?V?HH@Ic]K9iZ>oQ:3
+!i103 1
+S1
+R1
+R49
+R81
+R82
+!i122 9
+R80
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_fifo_scm_test_wrap
+r1
+R17
+R47
+R4
+R48
+DXx4 work 38 hwpe_stream_fifo_scm_test_wrap_sv_unit 0 22 o>E>Q16>=Ig:RoWQAVN5n1
+R8
+!i10b 1
+!s100 ?MKz9;j`MmFHmPoWNbOnQ1
+I<R@6zDONEL7beMLfbUF9B3
+!s105 hwpe_stream_fifo_scm_test_wrap_sv_unit
+S1
+R1
+R49
+Z83 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_scm_test_wrap.sv
+Z84 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_scm_test_wrap.sv
+!i122 9
+L0 19 71
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_fifo_scm_test_wrap_sv_unit
+R47
+R16
+R4
+R48
+R17
+Vo>E>Q16>=Ig:RoWQAVN5n1
+r1
+!s85 0
+!i10b 1
+!s100 JHVD?Q2S7WL9D8K8SSl=N2
+Io>E>Q16>=Ig:RoWQAVN5n1
+!i103 1
+S1
+R1
+R49
+R83
+R84
+!i122 9
+R80
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_fifo_sidech
+r1
+R17
+R47
+R4
+R48
+DXx4 work 31 hwpe_stream_fifo_sidech_sv_unit 0 22 HmbOPBLL_A0HRHhMH^QPB0
+R8
+!i10b 1
+!s100 TZF_RRHRE>Q_XM^zjFZVD2
+In?3GkdOXfXLL?m<@mdnK41
+!s105 hwpe_stream_fifo_sidech_sv_unit
+S1
+R1
+R49
+Z85 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_sidech.sv
+Z86 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_sidech.sv
+!i122 9
+L0 19 198
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_fifo_sidech_sv_unit
+R47
+R16
+R4
+R48
+R17
+VHmbOPBLL_A0HRHhMH^QPB0
+r1
+!s85 0
+!i10b 1
+!s100 =:D1PWM_]3dnR:V92gVfU1
+IHmbOPBLL_A0HRHhMH^QPB0
+!i103 1
+S1
+R1
+R49
+R85
+R86
+!i122 9
+R80
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_fifo_sv_unit
+R47
+R16
+R4
+R48
+R17
+VLkLkYVHKB]YaKbekS6TzE3
+r1
+!s85 0
+!i10b 1
+!s100 lhQYaT2lJ@78g16^M:HUR0
+ILkLkYVHKB]YaKbekS6TzE3
+!i103 1
+S1
+R1
+R49
+R71
+R72
+!i122 9
+Z87 L0 62 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Yhwpe_stream_intf_stream
+R47
+R16
+R4
+R17
+!i10b 1
+!s100 L;ZSfhieO:Y8a;WgNCF6@2
+IX9]:fhTW7MN[WI3`R:oZX1
+S1
+R1
+R49
+Z88 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/hwpe_stream_interfaces.sv
+Z89 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/hwpe_stream_interfaces.sv
+!i122 9
+L0 68 0
+R8
+R9
+r1
+!s85 0
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Yhwpe_stream_intf_tcdm
+R47
+R16
+R4
+R17
+!i10b 1
+!s100 K6Yg1i6;hPa?0iN:CKQe63
+IY6OHIAZ[VeBE1mA]RfiQ?2
+S1
+R1
+R49
+R88
+R89
+!i122 9
+L0 20 0
+R8
+R9
+r1
+!s85 0
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_merge
+r1
+R17
+R47
+R4
+R48
+DXx4 work 25 hwpe_stream_merge_sv_unit 0 22 @UJK5;<zj0dKk]R:c9_EL0
+R8
+!i10b 1
+!s100 F8YecBX>c4L2^m6^g2j4O2
+Il8k:U0[@@K2j2WLM:9TfK1
+!s105 hwpe_stream_merge_sv_unit
+S1
+R1
+R49
+Z90 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_merge.sv
+Z91 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_merge.sv
+!i122 9
+L0 49 39
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_merge_sv_unit
+R47
+R16
+R4
+R48
+R17
+V@UJK5;<zj0dKk]R:c9_EL0
+r1
+!s85 0
+!i10b 1
+!s100 2V4E@_cj<?zE9V>8HdaSV1
+I@UJK5;<zj0dKk]R:c9_EL0
+!i103 1
+S1
+R1
+R49
+R90
+R91
+!i122 9
+R68
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_mux_static
+r1
+R17
+R47
+R4
+R48
+DXx4 work 30 hwpe_stream_mux_static_sv_unit 0 22 =HaaBg?3]fVkBcFHiBHVY0
+R8
+!i10b 1
+!s100 bj7^8HJdV49PL;PdABnnD1
+IdA1bZ15T_T<Rae3V6_WWO2
+!s105 hwpe_stream_mux_static_sv_unit
+S1
+R1
+R49
+Z92 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_mux_static.sv
+Z93 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_mux_static.sv
+!i122 9
+L0 33 21
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_mux_static_sv_unit
+R47
+R16
+R4
+R48
+R17
+V=HaaBg?3]fVkBcFHiBHVY0
+r1
+!s85 0
+!i10b 1
+!s100 5HYj9`>Y_j8bf4he0QT;A0
+I=HaaBg?3]fVkBcFHiBHVY0
+!i103 1
+S1
+R1
+R49
+R92
+R93
+!i122 9
+Z94 L0 31 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_package
+R47
+R16
+R4
+R17
+!i10b 1
+!s100 >bCRcPCCgIPXi7LYCDXI83
+I;bSF^?T9fHZ:B>W1KWYOd1
+S1
+R1
+R49
+8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/hwpe_stream_package.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/hwpe_stream_package.sv
+!i122 9
+R45
+V;bSF^?T9fHZ:B>W1KWYOd1
+R9
+r1
+!s85 0
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_serialize
+r1
+R17
+R47
+R4
+R48
+DXx4 work 29 hwpe_stream_serialize_sv_unit 0 22 a;G[aSO<>CP;;:ifMCd<E1
+R8
+!i10b 1
+!s100 a6J][9oe;?lQWZYEV0R<J2
+IYiS9zD7Q5eZGdeESb^2;G2
+!s105 hwpe_stream_serialize_sv_unit
+S1
+R1
+R49
+Z95 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_serialize.sv
+Z96 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_serialize.sv
+!i122 9
+L0 49 105
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_serialize_sv_unit
+R47
+R16
+R4
+R48
+R17
+Va;G[aSO<>CP;;:ifMCd<E1
+r1
+!s85 0
+!i10b 1
+!s100 3]kTPNz@`XB_37`6McPCY0
+Ia;G[aSO<>CP;;:ifMCd<E1
+!i103 1
+S1
+R1
+R49
+R95
+R96
+!i122 9
+R68
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_sink
+r1
+R17
+R47
+R4
+R48
+DXx4 work 24 hwpe_stream_sink_sv_unit 0 22 E5Sa4e3bgk@9K440KzDcO1
+R8
+!i10b 1
+!s100 zjI7DVW;6G=7X1ik5[Ggd0
+IjZKZfh1d0@?Z:mI0j8`3o1
+!s105 hwpe_stream_sink_sv_unit
+S1
+R1
+R49
+Z97 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_sink.sv
+Z98 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_sink.sv
+!i122 9
+L0 91 233
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_sink_realign
+r1
+R17
+R47
+R4
+R48
+DXx4 work 32 hwpe_stream_sink_realign_sv_unit 0 22 jhWoQmAaKhChe?2XJJ@QZ0
+R8
+!i10b 1
+!s100 5Lj=Y519;m?f<DIIla:_91
+IommIS9JXHB^9U?5YLRml=1
+!s105 hwpe_stream_sink_realign_sv_unit
+S1
+R1
+R49
+Z99 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_sink_realign.sv
+Z100 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_sink_realign.sv
+!i122 9
+L0 58 187
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_sink_realign_sv_unit
+R47
+R16
+R4
+R48
+R17
+VjhWoQmAaKhChe?2XJJ@QZ0
+r1
+!s85 0
+!i10b 1
+!s100 `a>VL4k4Z^fJ9kkzgAZnD0
+IjhWoQmAaKhChe?2XJJ@QZ0
+!i103 1
+S1
+R1
+R49
+R99
+R100
+!i122 9
+L0 56 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_sink_sv_unit
+R47
+R16
+R4
+R48
+R17
+VE5Sa4e3bgk@9K440KzDcO1
+r1
+!s85 0
+!i10b 1
+!s100 2hnFaJO2Id8OKGAO327]e0
+IE5Sa4e3bgk@9K440KzDcO1
+!i103 1
+S1
+R1
+R49
+R97
+R98
+!i122 9
+L0 89 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_source
+r1
+R17
+R47
+R4
+R48
+DXx4 work 26 hwpe_stream_source_sv_unit 0 22 33ng_FBnD]10QoViM`k5B1
+R8
+!i10b 1
+!s100 j<<_EK<`HAAaOAKY4BS<P0
+IN;3Ei4mW6G:6bB8?WjLhg3
+!s105 hwpe_stream_source_sv_unit
+S1
+R1
+R49
+Z101 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_source.sv
+Z102 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_source.sv
+!i122 9
+L0 95 479
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_source_realign
+r1
+R17
+R47
+R4
+R48
+DXx4 work 34 hwpe_stream_source_realign_sv_unit 0 22 VEhW<[noKIgE5O8mmnY>W3
+R8
+!i10b 1
+!s100 Un1D3K>;]OVW[W[K6gNZB1
+IaMW]XNe[f;5iNIMN3EJjU3
+!s105 hwpe_stream_source_realign_sv_unit
+S1
+R1
+R49
+Z103 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_source_realign.sv
+Z104 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_source_realign.sv
+!i122 9
+L0 72 267
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_source_realign_sv_unit
+R47
+R16
+R4
+R48
+R17
+VVEhW<[noKIgE5O8mmnY>W3
+r1
+!s85 0
+!i10b 1
+!s100 j[2kS[4`NaK=L5oz4oa1@0
+IVEhW<[noKIgE5O8mmnY>W3
+!i103 1
+S1
+R1
+R49
+R103
+R104
+!i122 9
+L0 70 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_source_sv_unit
+R47
+R16
+R4
+R48
+R17
+V33ng_FBnD]10QoViM`k5B1
+r1
+!s85 0
+!i10b 1
+!s100 i;6;=GD_13EXYB_8;N<9Z1
+I33ng_FBnD]10QoViM`k5B1
+!i103 1
+S1
+R1
+R49
+R101
+R102
+!i122 9
+L0 93 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_split
+r1
+R17
+R47
+R4
+R48
+DXx4 work 25 hwpe_stream_split_sv_unit 0 22 CTX1W0nhdoglA4WEFK7Yk0
+R8
+!i10b 1
+!s100 42>[K@4Z=XKTd1L0mPW<`1
+I;OK<aFEom>Eg1X:KTdFzd2
+!s105 hwpe_stream_split_sv_unit
+S1
+R1
+R49
+Z105 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_split.sv
+Z106 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_split.sv
+!i122 9
+L0 49 40
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_split_sv_unit
+R47
+R16
+R4
+R48
+R17
+VCTX1W0nhdoglA4WEFK7Yk0
+r1
+!s85 0
+!i10b 1
+!s100 demQaVJ1CZ7XeXADVK;>C1
+ICTX1W0nhdoglA4WEFK7Yk0
+!i103 1
+S1
+R1
+R49
+R105
+R106
+!i122 9
+R68
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_strbgen
+r1
+R17
+R47
+R4
+R48
+DXx4 work 27 hwpe_stream_strbgen_sv_unit 0 22 ERdDgGT7FZFkk;bCG8nN^0
+R8
+!i10b 1
+!s100 AZBIBKU32nK=iC9O:SoBm1
+I>[<PmaRVfCOT^INKaOK4;0
+!s105 hwpe_stream_strbgen_sv_unit
+S1
+R1
+R49
+Z107 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_strbgen.sv
+Z108 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_strbgen.sv
+!i122 9
+L0 64 55
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_strbgen_sv_unit
+R47
+R16
+R4
+R48
+R17
+VERdDgGT7FZFkk;bCG8nN^0
+r1
+!s85 0
+!i10b 1
+!s100 ?K0@gkbaOMnUb49?m_P]^0
+IERdDgGT7FZFkk;bCG8nN^0
+!i103 1
+S1
+R1
+R49
+R107
+R108
+!i122 9
+R87
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_streamer_queue
+r1
+R17
+R47
+R4
+R48
+DXx4 work 34 hwpe_stream_streamer_queue_sv_unit 0 22 W?YM<[]_4MN8;88Uob<FJ1
+R8
+!i10b 1
+!s100 ce`4gQCLZ=znKGXa;<9O93
+Ij6Ihhz3cfHHm>E52Qb@;52
+!s105 hwpe_stream_streamer_queue_sv_unit
+S1
+R1
+R49
+Z109 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_streamer_queue.sv
+Z110 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_streamer_queue.sv
+!i122 9
+L0 18 88
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_streamer_queue_sv_unit
+R47
+R16
+R4
+R48
+R17
+VW?YM<[]_4MN8;88Uob<FJ1
+r1
+!s85 0
+!i10b 1
+!s100 k]?X4Z4NO:<2DocVSJ5FJ1
+IW?YM<[]_4MN8;88Uob<FJ1
+!i103 1
+S1
+R1
+R49
+R109
+R110
+!i122 9
+R45
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_tcdm_assign
+r1
+R17
+R47
+R4
+R48
+DXx4 work 31 hwpe_stream_tcdm_assign_sv_unit 0 22 eLS<1m8PBYl0W=I5]ZDD83
+R8
+!i10b 1
+!s100 19F]6KlQi4F[T`S0T[kR]0
+I`=>?=jUHGo^N>>jPkjC^R2
+!s105 hwpe_stream_tcdm_assign_sv_unit
+S1
+R1
+R49
+Z111 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_assign.sv
+Z112 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_assign.sv
+!i122 9
+L0 18 17
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_tcdm_assign_sv_unit
+R47
+R16
+R4
+R48
+R17
+VeLS<1m8PBYl0W=I5]ZDD83
+r1
+!s85 0
+!i10b 1
+!s100 MQL^c`LlXGCgPKI<fHXj;3
+IeLS<1m8PBYl0W=I5]ZDD83
+!i103 1
+S1
+R1
+R49
+R111
+R112
+!i122 9
+R45
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_tcdm_fifo
+r1
+R17
+R47
+R4
+R48
+DXx4 work 29 hwpe_stream_tcdm_fifo_sv_unit 0 22 k34Ufz@]Alb395haTGTI<2
+R8
+!i10b 1
+!s100 SF1WPMM?JDPNlzjz[`2iN0
+IXG@^jTDed5monW[EhPLTR0
+!s105 hwpe_stream_tcdm_fifo_sv_unit
+S1
+R1
+R49
+Z113 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo.sv
+Z114 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo.sv
+!i122 9
+L0 88 149
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_tcdm_fifo_load
+r1
+R17
+R47
+R4
+R48
+DXx4 work 34 hwpe_stream_tcdm_fifo_load_sv_unit 0 22 V4fM:^];JLa;V59OLzJm:1
+R8
+!i10b 1
+!s100 a=:8fQjC5gD6R5g^IOLg:3
+IV4Qh>LgHMCfZ^c:AK]o4[3
+!s105 hwpe_stream_tcdm_fifo_load_sv_unit
+S1
+R1
+R49
+Z115 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_load.sv
+Z116 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_load.sv
+!i122 9
+L0 79 149
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_tcdm_fifo_load_sidech
+r1
+R17
+R47
+R4
+R48
+DXx4 work 41 hwpe_stream_tcdm_fifo_load_sidech_sv_unit 0 22 `cIc4fdiXA`O@NURXzlLb1
+R8
+!i10b 1
+!s100 fn0XA;khebFz94_?L`^=12
+I87?3oUGQBiU_Kj:h<0N>I2
+!s105 hwpe_stream_tcdm_fifo_load_sidech_sv_unit
+S1
+R1
+R49
+Z117 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_load_sidech.sv
+Z118 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_load_sidech.sv
+!i122 9
+L0 18 174
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_tcdm_fifo_load_sidech_sv_unit
+R47
+R16
+R4
+R48
+R17
+V`cIc4fdiXA`O@NURXzlLb1
+r1
+!s85 0
+!i10b 1
+!s100 KaXR:PXDPe0>^;<KkCnWU0
+I`cIc4fdiXA`O@NURXzlLb1
+!i103 1
+S1
+R1
+R49
+R117
+R118
+!i122 9
+R45
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_tcdm_fifo_load_sv_unit
+R47
+R16
+R4
+R48
+R17
+VV4fM:^];JLa;V59OLzJm:1
+r1
+!s85 0
+!i10b 1
+!s100 le?5;B<P5Fi742N4c_1eE1
+IV4fM:^];JLa;V59OLzJm:1
+!i103 1
+S1
+R1
+R49
+R115
+R116
+!i122 9
+L0 77 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_tcdm_fifo_store
+r1
+R17
+R47
+R4
+R48
+DXx4 work 35 hwpe_stream_tcdm_fifo_store_sv_unit 0 22 A<loWRHoc;CEEA3VM]]Xe1
+R8
+!i10b 1
+!s100 a01S66IKQgV8k<Uc9FXkN3
+I<L4NS_0dCUfKg4Zg:Q9o?0
+!s105 hwpe_stream_tcdm_fifo_store_sv_unit
+S1
+R1
+R49
+Z119 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_store.sv
+Z120 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_store.sv
+!i122 9
+L0 71 63
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_tcdm_fifo_store_sv_unit
+R47
+R16
+R4
+R48
+R17
+VA<loWRHoc;CEEA3VM]]Xe1
+r1
+!s85 0
+!i10b 1
+!s100 XjlJK_3dPShcjCH@z5I8D2
+IA<loWRHoc;CEEA3VM]]Xe1
+!i103 1
+S1
+R1
+R49
+R119
+R120
+!i122 9
+L0 69 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_tcdm_fifo_sv_unit
+R47
+R16
+R4
+R48
+R17
+Vk34Ufz@]Alb395haTGTI<2
+r1
+!s85 0
+!i10b 1
+!s100 nHMX6STHe4LYAKGOLN^iU1
+Ik34Ufz@]Alb395haTGTI<2
+!i103 1
+S1
+R1
+R49
+R113
+R114
+!i122 9
+L0 86 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_tcdm_mux
+r1
+R17
+R47
+R4
+R48
+DXx4 work 28 hwpe_stream_tcdm_mux_sv_unit 0 22 HfzA2W8NUkUCmQLK0TR0X0
+R8
+!i10b 1
+!s100 9@1YQokEf2Jc]SN_<M=7L0
+ILUXocUL5R6;WLfDno:9oa1
+!s105 hwpe_stream_tcdm_mux_sv_unit
+S1
+R1
+R49
+Z121 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_mux.sv
+Z122 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_mux.sv
+!i122 9
+L0 49 241
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_tcdm_mux_static
+r1
+R17
+R47
+R4
+R48
+DXx4 work 35 hwpe_stream_tcdm_mux_static_sv_unit 0 22 7g`e;McQ04PQSW_Qf<D0O0
+R8
+!i10b 1
+!s100 =cT5UfGEjC_e6W@HgMUS10
+I^8i:P[3>8dZgOFi;`Q`bk0
+!s105 hwpe_stream_tcdm_mux_static_sv_unit
+S1
+R1
+R49
+Z123 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_mux_static.sv
+Z124 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_mux_static.sv
+!i122 9
+L0 39 34
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_tcdm_mux_static_sv_unit
+R47
+R16
+R4
+R48
+R17
+V7g`e;McQ04PQSW_Qf<D0O0
+r1
+!s85 0
+!i10b 1
+!s100 5NioF]K?42P0kb_W]GN^z3
+I7g`e;McQ04PQSW_Qf<D0O0
+!i103 1
+S1
+R1
+R49
+R123
+R124
+!i122 9
+R75
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_tcdm_mux_sv_unit
+R47
+R16
+R4
+R48
+R17
+VHfzA2W8NUkUCmQLK0TR0X0
+r1
+!s85 0
+!i10b 1
+!s100 ][ZB;M_<Y1cZh@E0URdhN0
+IHfzA2W8NUkUCmQLK0TR0X0
+!i103 1
+S1
+R1
+R49
+R121
+R122
+!i122 9
+R68
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_tcdm_reorder
+r1
+R17
+R47
+R4
+R48
+DXx4 work 32 hwpe_stream_tcdm_reorder_sv_unit 0 22 akQEGa7?nc:Oiz4DX<:2j3
+R8
+!i10b 1
+!s100 `g5ibz_M587oBYczgWd2N1
+I5L_b=36:d_]2=Inljm?2g0
+!s105 hwpe_stream_tcdm_reorder_sv_unit
+S1
+R1
+R49
+Z125 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_reorder.sv
+Z126 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_reorder.sv
+!i122 9
+L0 38 112
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vhwpe_stream_tcdm_reorder_static
+r1
+R17
+R47
+R4
+R48
+DXx4 work 39 hwpe_stream_tcdm_reorder_static_sv_unit 0 22 oePVGXe2bjE<KmYPWEBPM2
+R8
+!i10b 1
+!s100 ::mL[;XGZHE6g:VQH7C1J3
+IOjoj^@5P^@K0gh2@g6O7A2
+!s105 hwpe_stream_tcdm_reorder_static_sv_unit
+S1
+R1
+R49
+Z127 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_reorder_static.sv
+Z128 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_reorder_static.sv
+!i122 9
+L0 35 87
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_tcdm_reorder_static_sv_unit
+R47
+R16
+R4
+R48
+R17
+VoePVGXe2bjE<KmYPWEBPM2
+r1
+!s85 0
+!i10b 1
+!s100 UGgiBR14`=b8>5a;RSX<O3
+IoePVGXe2bjE<KmYPWEBPM2
+!i103 1
+S1
+R1
+R49
+R127
+R128
+!i122 9
+L0 33 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+Xhwpe_stream_tcdm_reorder_sv_unit
+R47
+R16
+R4
+R48
+R17
+VakQEGa7?nc:Oiz4DX<:2j3
+r1
+!s85 0
+!i10b 1
+!s100 @?_>@oJQR2`AR2@KV6NmV3
+IakQEGa7?nc:Oiz4DX<:2j3
+!i103 1
+S1
+R1
+R49
+R125
+R126
+!i122 9
+L0 36 0
+R9
+31
+R21
+R52
+R53
+!i113 0
+R13
+R54
+R15
+vmac_ctrl
+r1
+Z129 !s110 1685374834
+R47
+R4
+R48
+Z130 DXx4 work 11 mac_package 0 22 I7Li[dOcO68=YPi`aSUdL2
+R46
+DXx4 work 16 mac_ctrl_sv_unit 0 22 CC14i4g_Eo9IbeK]UAa:?2
+R8
+!i10b 1
+!s100 znCF5`]iD>C[5Lf3[<`hR0
+INHY<SLLoWACiN8`=PdLXz0
+!s105 mac_ctrl_sv_unit
+S1
+R1
+R49
+Z131 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_ctrl.sv
+Z132 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_ctrl.sv
+!i122 10
+L0 19 135
+R9
+31
+Z133 !s108 1685374834.000000
+Z134 !s107 /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/wrap/mac_top_wrap.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_top.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_ctrl.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_streamer.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_fsm.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_engine.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_package.sv|
+Z135 !s90 -incr|-sv|-suppress|2583|-suppress|13314|+define+TARGET_RTL|+define+TARGET_SIMULATION|+define+TARGET_TEST|+define+TARGET_VSIM|+incdir+/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_package.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_engine.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_fsm.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_streamer.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_ctrl.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_top.sv|/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/wrap/mac_top_wrap.sv|
+!i113 0
+R13
+Z136 !s92 -suppress 2583 -suppress 13314 -sv +define+TARGET_RTL +define+TARGET_SIMULATION +define+TARGET_TEST +define+TARGET_VSIM +incdir+/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl
+R15
+Xmac_ctrl_sv_unit
+R47
+Z137 2/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include/zeroriscy_defines.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include/zeroriscy_tracer_defines.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_alu.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_compressed_decoder.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_controller.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_cs_registers.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_debug_unit.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_decoder.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_int_controller.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_ex_block.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_register_file_ff.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_id_stage.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_if_stage.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_load_store_unit.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_multdiv_slow.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_multdiv_fast.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_prefetch_buffer.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_fetch_fifo.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_tracer.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_core.sv
+R4
+R48
+R130
+R46
+R129
+VCC14i4g_Eo9IbeK]UAa:?2
+r1
+!s85 0
+!i10b 1
+!s100 c1=h3<nUk8o6UCH?B0Cof1
+ICC14i4g_Eo9IbeK]UAa:?2
+!i103 1
+S1
+R1
+R49
+R131
+R132
+!i122 10
+R45
+R9
+31
+R133
+R134
+R135
+!i113 0
+R13
+R136
+R15
+vmac_engine
+r1
+R129
+R47
+R4
+R48
+R130
+DXx4 work 18 mac_engine_sv_unit 0 22 4PLl>3RJbmdQoaTZ=C5e10
+R8
+!i10b 1
+!s100 NJQig[dk3ZP3`GzMaYIlV3
+IoVeWeLGKMaTz?9CUGe@8b3
+!s105 mac_engine_sv_unit
+S1
+R1
+R49
+Z138 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_engine.sv
+Z139 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_engine.sv
+!i122 10
+L0 31 290
+R9
+31
+R133
+R134
+R135
+!i113 0
+R13
+R136
+R15
+Xmac_engine_sv_unit
+R47
+R137
+R4
+R48
+R130
+R129
+V4PLl>3RJbmdQoaTZ=C5e10
+r1
+!s85 0
+!i10b 1
+!s100 2=<Kc@BV:5_z[?G1zcYDN1
+I4PLl>3RJbmdQoaTZ=C5e10
+!i103 1
+S1
+R1
+R49
+R138
+R139
+!i122 10
+Z140 L0 29 0
+R9
+31
+R133
+R134
+R135
+!i113 0
+R13
+R136
+R15
+vmac_fsm
+r1
+R129
+R47
+R4
+R48
+R130
+R46
+DXx4 work 15 mac_fsm_sv_unit 0 22 o]F2P;DgSQY8Q[92R6_::0
+R8
+!i10b 1
+!s100 DDg2`n:U]QGk;M;iJe_`c2
+I;B[Vd>3eBaPIZ43mjc^0;3
+!s105 mac_fsm_sv_unit
+S1
+R1
+R49
+Z141 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_fsm.sv
+Z142 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_fsm.sv
+!i122 10
+L0 19 197
+R9
+31
+R133
+R134
+R135
+!i113 0
+R13
+R136
+R15
+Xmac_fsm_sv_unit
+R47
+R137
+R4
+R48
+R130
+R46
+R129
+Vo]F2P;DgSQY8Q[92R6_::0
+r1
+!s85 0
+!i10b 1
+!s100 S0IFR7V7N75^>eiic1jVh1
+Io]F2P;DgSQY8Q[92R6_::0
+!i103 1
+S1
+R1
+R49
+R141
+R142
+!i122 10
+R45
+R9
+31
+R133
+R134
+R135
+!i113 0
+R13
+R136
+R15
+Xmac_package
+r1
+R129
+R47
+R4
+R48
+VI7Li[dOcO68=YPi`aSUdL2
+!i10b 1
+!s100 Zz]743Y[3Oo29l:m1D6OO3
+II7Li[dOcO68=YPi`aSUdL2
+S1
+R1
+R49
+Z143 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_package.sv
+Z144 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_package.sv
+!i122 10
+L0 18 0
+R9
+31
+R133
+R134
+R135
+!i113 0
+R13
+R136
+R15
+Xmac_package_sv_unit
+R47
+R137
+R4
+R48
+R129
+VLIM@`<l4hdYamj=8Y`zeO2
+r1
+!s85 0
+!i10b 1
+!s100 C@S0n`[Oe47SC^19iXUBD0
+ILIM@`<l4hdYamj=8Y`zeO2
+!i103 1
+S1
+R1
+R49
+R143
+R144
+!i122 10
+R45
+R9
+31
+R133
+R134
+R135
+!i113 0
+R13
+R136
+R15
+vmac_streamer
+r1
+R129
+R47
+R4
+R48
+R130
+DXx4 work 20 mac_streamer_sv_unit 0 22 dQI=zGQU:0JeFzP@d;o:82
+R8
+!i10b 1
+!s100 9Bd994fKMGO^[]_kf`WaR2
+IGeY`k>A5?[lhM4em0]AQG2
+!s105 mac_streamer_sv_unit
+S1
+R1
+R49
+Z145 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_streamer.sv
+Z146 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_streamer.sv
+!i122 10
+L0 19 232
+R9
+31
+R133
+R134
+R135
+!i113 0
+R13
+R136
+R15
+Xmac_streamer_sv_unit
+R47
+R137
+R4
+R48
+R130
+R129
+VdQI=zGQU:0JeFzP@d;o:82
+r1
+!s85 0
+!i10b 1
+!s100 clGMY_n5RVHEecB`0ONTN1
+IdQI=zGQU:0JeFzP@d;o:82
+!i103 1
+S1
+R1
+R49
+R145
+R146
+!i122 10
+R45
+R9
+31
+R133
+R134
+R135
+!i113 0
+R13
+R136
+R15
+vmac_top
+r1
+R129
+R47
+R4
+R48
+R130
+R46
+DXx4 work 15 mac_top_sv_unit 0 22 G:TgI[R<Y2?AF<n?ffcAm1
+R8
+!i10b 1
+!s100 8Y^V<6JKoDi[5E2l51M162
+IIVP[lkNojUzhfJj4^E1Hm3
+!s105 mac_top_sv_unit
+S1
+R1
+R49
+Z147 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_top.sv
+Z148 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_top.sv
+!i122 10
+L0 19 96
+R9
+31
+R133
+R134
+R135
+!i113 0
+R13
+R136
+R15
+Xmac_top_sv_unit
+R47
+R137
+R4
+R48
+R130
+R46
+R129
+VG:TgI[R<Y2?AF<n?ffcAm1
+r1
+!s85 0
+!i10b 1
+!s100 W7eKcjnJ@d@Q<VaJb_1`22
+IG:TgI[R<Y2?AF<n?ffcAm1
+!i103 1
+S1
+R1
+R49
+R147
+R148
+!i122 10
+R45
+R9
+31
+R133
+R134
+R135
+!i113 0
+R13
+R136
+R15
+vmac_top_wrap
+r1
+R129
+R47
+R4
+R48
+R130
+R46
+DXx4 work 20 mac_top_wrap_sv_unit 0 22 h^7LD4zQa>ADAJO@aA^XD2
+R8
+!i10b 1
+!s100 ie1>CSi0@<ZbIGGUUUO0l3
+IdPzIN7;lRLn7@43P9U]hl2
+!s105 mac_top_wrap_sv_unit
+S1
+R1
+R49
+Z149 8/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/wrap/mac_top_wrap.sv
+Z150 F/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/wrap/mac_top_wrap.sv
+!i122 10
+L0 12 86
+R9
+31
+R133
+R134
+R135
+!i113 0
+R13
+R136
+R15
+Xmac_top_wrap_sv_unit
+R47
+R137
+R4
+R48
+R130
+R46
+R129
+Vh^7LD4zQa>ADAJO@aA^XD2
+r1
+!s85 0
+!i10b 1
+!s100 hS4KdRAA4_[UfY=B:o[R33
+Ih^7LD4zQa>ADAJO@aA^XD2
+!i103 1
+S1
+R1
+R49
+R149
+R150
+!i122 10
+L0 9 0
+R9
+31
+R133
+R134
+R135
+!i113 0
+R13
+R136
+R15
+vpad_functional_pd
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 EPCHN5T<6De[MK25En4nV0
+IEDS1HdXjW2KDD[L4TfS5L3
+S1
+R1
+R6
+Z151 8/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pad_functional.sv
+Z152 F/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pad_functional.sv
+!i122 4
+L0 12 35
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vpad_functional_pu
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 @[HizYW]3PcCQMUjnJaN]1
+IIY2XZKb7g<M6kGVJNac[01
+S1
+R1
+R6
+R151
+R152
+!i122 4
+L0 48 35
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vpulp_buffer
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 iB33:OHk_Qd@i^_DXW=Hk3
+I=>F4hX?E:1FcMeKCHbQGS1
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_buffer.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_buffer.sv
+!i122 4
+Z153 L0 11 9
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vpulp_clock_and2
+R2
+R16
+R4
+R17
+!i10b 1
+!s100 IdLI4:deSkR5im:3kQZ332
+InWNNl3RBa`EhK6=jmPYid3
+S1
+R1
+R6
+Z154 8/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_clk_cells.sv
+Z155 F/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_clk_cells.sv
+!i122 7
+R20
+R8
+R9
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R13
+R14
+R15
+vpulp_clock_buffer
+R2
+R16
+R4
+R17
+!i10b 1
+!s100 :mBbD2J>42F>Lc4bRhn<X0
+Iea`NVh?XL>OgV:250IQ482
+S1
+R1
+R6
+R154
+R155
+!i122 7
+R24
+R8
+R9
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R13
+R14
+R15
+vpulp_clock_delay
+R2
+R16
+R4
+R17
+!i10b 1
+!s100 ZdAIz`JW6[3o2hLaLNEUj0
+I`1Qk3JNQGd;C^:`nC28T21
+S1
+R1
+R6
+R154
+R155
+!i122 7
+L0 97 8
+R8
+R9
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R13
+R14
+R15
+vpulp_clock_gating
+R2
+R16
+R4
+R17
+!i10b 1
+!s100 Bg`HPZg@aHG4l2kDfR?hi2
+IV[Q]6=MXi@l?`?MJXc9UR3
+S1
+R1
+R6
+R154
+R155
+!i122 7
+R25
+R8
+R9
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R13
+R14
+R15
+vpulp_clock_gating_async
+R2
+R16
+R4
+R17
+!i10b 1
+!s100 lUlSOF`2YdlZc;2`7iPP03
+IoL96g6n=g^6N5iF=]<KFd2
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_clock_gating_async.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_clock_gating_async.sv
+!i122 7
+L0 13 32
+R8
+R9
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R13
+R14
+R15
+vpulp_clock_inverter
+R2
+R16
+R4
+R17
+!i10b 1
+!s100 T0TnkOF0QEAk2AaN3<W;80
+IE:FZS;;h2V2]G6<@gDDgo2
+S1
+R1
+R6
+R154
+R155
+!i122 7
+R26
+R8
+R9
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R13
+R14
+R15
+vpulp_clock_mux2
+R2
+R16
+R4
+R17
+!i10b 1
+!s100 CT6]EFn39d@L7@<inD:U70
+IGXE5[QGlVI8Ii@Inonc<F1
+S1
+R1
+R6
+R154
+R155
+!i122 7
+R27
+R8
+R9
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R13
+R14
+R15
+vpulp_clock_xor2
+R2
+R16
+R4
+R17
+!i10b 1
+!s100 M41D9Lb;azkSgI?e?O`bz1
+Id]O?Bg9P7A0XkH[4Tde]A2
+S1
+R1
+R6
+R154
+R155
+!i122 7
+R28
+R8
+R9
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R13
+R14
+R15
+vpulp_isolation_0
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 U_hI7iGoDdGTK8Xi6>dic3
+IfogZ96HMz01KN7ME:Zb@l2
+S1
+R1
+R6
+Z156 8/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_pwr_cells.sv
+Z157 F/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_pwr_cells.sv
+!i122 4
+L0 70 9
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vpulp_isolation_1
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 T`KM56kCWfnm953hnQgL[1
+IVjHj1FRfXa1b77AiTdmgF2
+S1
+R1
+R6
+R156
+R157
+!i122 4
+L0 80 9
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vpulp_level_shifter_in
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 Elf]F8_AT^OafRLXSN<G43
+I;36649`AQiI^58SLfdeaY1
+S1
+R1
+R6
+R156
+R157
+!i122 4
+R31
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vpulp_level_shifter_in_clamp
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 9GSiWLfQd_WIYfAVNHCRI3
+I6NRE[biCY_ZFjjS@=[hNQ2
+S1
+R1
+R6
+R156
+R157
+!i122 4
+R35
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vpulp_level_shifter_inout
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 U>HzEP:WT<447;da8gFD73
+Ii3jo[ljc?IUeJ<DnULihX2
+S1
+R1
+R6
+R156
+R157
+!i122 4
+R36
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vpulp_level_shifter_out
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 kagj5Sl4=XYh@ig0KCHNR1
+I=b@z9[;zozcCaPYDkW[@=2
+S1
+R1
+R6
+R156
+R157
+!i122 4
+R37
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vpulp_level_shifter_out_clamp
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 QoU4ak::?l^4JBQMEYj913
+Ioc_YBFjG^b7zCahSK8ZYV0
+S1
+R1
+R6
+R156
+R157
+!i122 4
+R38
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+vpulp_power_gating
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 eGD][84S@IifPPWPc?;==1
+IGG6PGY4YYeT2V?2Z4Hh=k1
+S1
+R1
+R6
+R156
+R157
+!i122 4
+L0 61 8
+R8
+R9
+r1
+!s85 0
+31
+R32
+R33
+R34
+!i113 0
+R13
+R14
+R15
+Xrand_id_queue_pkg
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 6R_z>n4<X3S3dbMJQ0]cQ2
+I:U=ZDIKj1lk0fYZCbYO343
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_id_queue.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_id_queue.sv
+!i122 0
+L0 12 0
+V:U=ZDIKj1lk0fYZCbYO343
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+vrand_stream_mst
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 3J7E:JgN9cdgkZZ4fFDd60
+Ib_XO0029:ZWF[<9PaGK3I3
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_stream_mst.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_stream_mst.sv
+!i122 0
+L0 12 93
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+vrand_stream_slv
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 `k^QRQ056J8m4W;5Z@3_n1
+I9gnQlNkPjAfJJ<ea9IQk22
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_stream_slv.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_stream_slv.sv
+!i122 0
+L0 12 56
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+vrand_synch_driver
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 JWCgNONVA0g>4SM4UBQld2
+IW5NbF9ESWoWbBC^:91n680
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_synch_driver.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_synch_driver.sv
+!i122 0
+L0 12 28
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+vrand_synch_holdable_driver
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 iBHHM9?ZQTIK04e13I;n:0
+Ic8i@d<lfGdjFlI3;K@5^a1
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_synch_holdable_driver.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_synch_holdable_driver.sv
+!i122 0
+R7
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+Xrand_verif_pkg
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 2b:Wn[l@K6A1CV>LNWID]3
+I`MOW8n@:_z`Mf8O0_MfGe2
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_verif_pkg.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_verif_pkg.sv
+!i122 0
+L0 13 0
+V`MOW8n@:_z`Mf8O0_MfGe2
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+vregister_file_1r_1w
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 SOALDK`X`[^AKz@@bWjUX3
+I0TlKzgGQz>3OCF1XKf38J0
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w.sv
+!i122 11
+L0 36 132
+R8
+R9
+r1
+!s85 0
+31
+R133
+Z158 !s107 /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_multi_way_1w_multi_port_read.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_multi_way_1w_64b_multi_port_read_32b.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_3r_2w_be.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_3r_2w.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_2w.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_1w_asymm_test_wrap.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_1w_asymm.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read_be.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_1r_32b.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_multi_port_read_32b.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_128b_multi_port_read_32b.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_1row.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_be.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_all_test_wrap.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_all.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read_1row.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_multi_port_read_32b_1row.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_test_wrap.sv|
+Z159 !s90 -incr|-sv|-suppress|2583|-suppress|13314|+define+TARGET_RTL|+define+TARGET_SIMULATION|+define+TARGET_TEST|+define+TARGET_VSIM|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_test_wrap.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_multi_port_read_32b_1row.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read_1row.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_all.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_all_test_wrap.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_be.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_1row.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_128b_multi_port_read_32b.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_multi_port_read_32b.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_1r_32b.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read_be.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_1w_asymm.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_1w_asymm_test_wrap.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_2w.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_3r_2w.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_3r_2w_be.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_multi_way_1w_64b_multi_port_read_32b.sv|/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_multi_way_1w_multi_port_read.sv|
+!i113 0
+R13
+R14
+R15
+vregister_file_1r_1w_1row
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 WggE>f:>_o6_TD2?9MXXP0
+IamC2njCed^ElBOHPj[?@I3
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_1row.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_1row.sv
+!i122 11
+L0 11 83
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_1r_1w_all
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 4[e5QiJmfM490F4Q6o=<Q3
+IoA@l^dX^h?9PMmJ4XW9Oi2
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_all.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_all.sv
+!i122 11
+L0 11 165
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_1r_1w_all_test_wrap
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 BOGc7KOeG[oTd?SFMaEPD1
+IA2K2XZ<58NbI<=5Mj[U?_3
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_all_test_wrap.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_all_test_wrap.sv
+!i122 11
+L0 11 91
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_1r_1w_be
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 ^EKjMc6lgX[?[lFIGL8K@3
+IcK4<;BkJXGc9O0D`TGlfK1
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_be.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_be.sv
+!i122 11
+L0 11 155
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_1r_1w_test_wrap
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 Zeo7F<05dgm:Dhd2V4;5V3
+IMFFGzb>zEik@5bf0597[C1
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_test_wrap.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_test_wrap.sv
+!i122 11
+L0 11 80
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_1w_128b_multi_port_read_32b
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 i>UR>l55Ed4AXg8S;U^I10
+ICkn:nQ@O5?=2A:2jJ_dcJ1
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_128b_multi_port_read_32b.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_128b_multi_port_read_32b.sv
+!i122 11
+L0 11 156
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_1w_64b_1r_32b
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 mGVNH86<RCoFnAH:<aQoR2
+IV4HJYRN>n:1>4a@GUF3hC0
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_1r_32b.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_1r_32b.sv
+!i122 11
+L0 11 141
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_1w_64b_multi_port_read_32b
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 NTeQm4N9E=4Q8oYQ@nDFD3
+I^4GTaXUKISHF`ccTeNf;d2
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_multi_port_read_32b.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_multi_port_read_32b.sv
+!i122 11
+L0 11 157
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_1w_64b_multi_port_read_32b_1row
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 a8Vl8?B[mo55OimC;c<_O3
+IG1O3Tb[Pj8c[ffQoAg:>o0
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_multi_port_read_32b_1row.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_multi_port_read_32b_1row.sv
+!i122 11
+L0 11 131
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_1w_multi_port_read
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 8@4ieDX3O>[eJIBa805iR0
+IkF]RcRzQkIDZMIPl3jDjl2
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read.sv
+!i122 11
+L0 11 163
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_1w_multi_port_read_1row
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 kQo5l[5<Ua298QS8LCIf:0
+I6g]nigMlAI_AjEizCcLCQ2
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read_1row.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read_1row.sv
+!i122 11
+L0 11 88
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_1w_multi_port_read_be
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 Z^ch@=Di>a]5__QmT@H6i3
+IZ=hWDaL=5@P<@VQm:9n@S2
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read_be.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read_be.sv
+!i122 11
+L0 11 166
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_2r_1w_asymm
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 UzbJOZ<TWb0Io_<lkf3HP0
+INZ1J_;nldi:c=;M0GG;ZN0
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_1w_asymm.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_1w_asymm.sv
+!i122 11
+L0 43 180
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_2r_1w_asymm_test_wrap
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 Mm2?S8MD=b=_`aVO>kKl=0
+I:Z5bghiA_O2bEWWaog`M_2
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_1w_asymm_test_wrap.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_1w_asymm_test_wrap.sv
+!i122 11
+L0 43 103
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_2r_2w
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 LEYY@70VEW8zW8eE0KHn:1
+IRIoIAMbXVQ3h`A5FgQNEo1
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_2w.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_2w.sv
+!i122 11
+L0 36 174
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_3r_2w
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 n`?R4DY0nIVh>5@=KC8^^0
+I=^UcXf`eTdG0c0EiWe3I=3
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_3r_2w.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_3r_2w.sv
+!i122 11
+L0 36 184
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_3r_2w_be
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 ?2Oi[:QQUP2mnc=KeBNf40
+IE=7f?kZCY9cD1U0gZiAi`3
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_3r_2w_be.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_3r_2w_be.sv
+!i122 11
+L0 11 233
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_multi_way_1w_multi_port_read
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 [QD?Vgg]0143GI[S[XROM3
+IFS8;GPoGg9]3BY@ocXo1d2
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_multi_way_1w_multi_port_read.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_multi_way_1w_multi_port_read.sv
+!i122 11
+L0 11 161
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vregister_file_multy_way_1w_64b_multi_port_read_32b
+R2
+R137
+R4
+R129
+!i10b 1
+!s100 @n72O34`W=^0EF`:?863]0
+IMRGD00eU<nMPOG2HVS[X60
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_multi_way_1w_64b_multi_port_read_32b.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_multi_way_1w_64b_multi_port_read_32b.sv
+!i122 11
+L0 11 169
+R8
+R9
+r1
+!s85 0
+31
+R133
+R158
+R159
+!i113 0
+R13
+R14
+R15
+vsignal_highlighter
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 R5FIm`DizS9b@BO?G[k[S2
+IV>@ELZn4S_eEC2:@@V43]3
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/signal_highlighter.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/signal_highlighter.sv
+!i122 0
+L0 15 18
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+vsim_timeout
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 L4>L8=9PA<75DdB8^on[43
+IQl_gC:1PS>?O@AT]BzL8M1
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/sim_timeout.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/sim_timeout.sv
+!i122 0
+L0 1 28
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+vstream_watchdog
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 S8S@US9RJ9@WT`a6aCR@W3
+I4[imWXYJKRm?9nO;5K:MY0
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/stream_watchdog.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/stream_watchdog.sv
+!i122 0
+L0 15 30
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+vtb_clk_rst_gen
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 X]6>H>7i?9nTj8n3m:J5:0
+IFo218_PAd<lG]aaoQPlO@0
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/test/tb_clk_rst_gen.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/test/tb_clk_rst_gen.sv
+!i122 1
+L0 8 49
+R8
+R9
+r1
+!s85 0
+31
+R32
+!s107 /home/youssef/riscv/hwpe-tb/hw/ips/common_verification/test/tb_clk_rst_gen.sv|
+!s90 -incr|-sv|-suppress|2583|-suppress|13314|+define+TARGET_RTL|+define+TARGET_SIMULATION|+define+TARGET_TEST|+define+TARGET_VSIM|/home/youssef/riscv/hwpe-tb/hw/ips/common_verification/test/tb_clk_rst_gen.sv|
+!i113 0
+R13
+R14
+R15
+vtb_dummy_memory
+Z160 !s10a 1679180149
+Z161 2/home/youssef/riscv/hwpe-tb/hw/rtl/tb_dummy_memory.sv /home/youssef/riscv/hwpe-tb/hw/rtl/tb_hwpe.sv
+R4
+Z162 !s110 1685374835
+!i10b 1
+!s100 M2iIiShO<MWfzc@X3Zja03
+ITJGa1@iEDS<LC>6oK0gmE3
+S1
+R1
+Z163 w1679180149
+8/home/youssef/riscv/hwpe-tb/hw/rtl/tb_dummy_memory.sv
+F/home/youssef/riscv/hwpe-tb/hw/rtl/tb_dummy_memory.sv
+!i122 13
+L0 27 171
+R8
+R9
+r1
+!s85 0
+31
+Z164 !s108 1685374835.000000
+Z165 !s107 /home/youssef/riscv/hwpe-tb/hw/rtl/tb_hwpe.sv|/home/youssef/riscv/hwpe-tb/hw/rtl/tb_dummy_memory.sv|
+Z166 !s90 -incr|-sv|-suppress|2583|-suppress|13314|+define+TARGET_RTL|+define+TARGET_SIMULATION|+define+TARGET_TEST|+define+TARGET_VSIM|/home/youssef/riscv/hwpe-tb/hw/rtl/tb_dummy_memory.sv|/home/youssef/riscv/hwpe-tb/hw/rtl/tb_hwpe.sv|
+!i113 0
+R13
+R14
+R15
+vtb_hwpe
+R160
+R161
+R4
+R162
+!i10b 1
+!s100 _m=LHW^AI1^FiG8gnM80d3
+I5BWPP>1WlfczI?dMgMnAe3
+S1
+R1
+R163
+8/home/youssef/riscv/hwpe-tb/hw/rtl/tb_hwpe.sv
+F/home/youssef/riscv/hwpe-tb/hw/rtl/tb_hwpe.sv
+!i122 13
+L0 19 347
+R8
+R9
+r1
+!s85 0
+31
+R164
+R165
+R166
+!i113 0
+R13
+R14
+R15
+vtb_tc_sram
+R2
+R16
+R4
+R17
+!i10b 1
+!s100 532kLNYG3MAQfUj7>eM^62
+IhGB2C15JiOJ_4jUh[Nd>73
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/test/tb_tc_sram.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/test/tb_tc_sram.sv
+!i122 6
+L0 14 191
+R8
+R9
+r1
+!s85 0
+31
+R32
+!s107 /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/test/tb_tc_sram.sv|
+!s90 -incr|-sv|-suppress|2583|-suppress|13314|+define+TARGET_RTL|+define+TARGET_SIMULATION|+define+TARGET_TEST|+define+TARGET_VSIM|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/test/tb_tc_sram.sv|
+!i113 0
+R13
+R14
+R15
+vtc_clk_and2
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 fz>PKll2^3;fm3Bk`S3cG3
+IZYQm8PU8ozDLKcbY1j<2A1
+S1
+R1
+R6
+Z167 8/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_clk.sv
+Z168 F/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_clk.sv
+!i122 3
+R153
+R8
+R9
+r1
+!s85 0
+31
+R32
+Z169 !s107 /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_clk.sv|
+Z170 !s90 -incr|-sv|-suppress|2583|-suppress|13314|+define+TARGET_RTL|+define+TARGET_SIMULATION|+define+TARGET_TEST|+define+TARGET_VSIM|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_clk.sv|
+!i113 0
+R13
+R14
+R15
+vtc_clk_buffer
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 l3Q2UmAo7=K`@4IlHKbm82
+IifNP`e6RVT:aWU5A=M3@H3
+S1
+R1
+R6
+R167
+R168
+!i122 3
+L0 21 8
+R8
+R9
+r1
+!s85 0
+31
+R32
+R169
+R170
+!i113 0
+R13
+R14
+R15
+vtc_clk_delay
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 ZV=SE;hVKXHbjWQ9bHioM2
+IQ^:e]:T96igJ8XXg1SJmg0
+S1
+R1
+R6
+R167
+R168
+!i122 3
+L0 106 14
+R8
+R9
+r1
+!s85 0
+31
+R32
+R169
+R170
+!i113 0
+R13
+R14
+R15
+vtc_clk_gating
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 GbR;@TIabLLf[gNYJ<AH@1
+IHH]:XIW;953^CN;0NeU3c2
+S1
+R1
+R6
+R167
+R168
+!i122 3
+L0 31 23
+R8
+R9
+r1
+!s85 0
+31
+R32
+R169
+R170
+!i113 0
+R13
+R14
+R15
+vtc_clk_inverter
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 iLe0hYoClP>J2XdQQK]L^0
+IUd;lZi;5XOfF?EN65^3Aa2
+S1
+R1
+R6
+R167
+R168
+!i122 3
+L0 55 8
+R8
+R9
+r1
+!s85 0
+31
+R32
+R169
+R170
+!i113 0
+R13
+R14
+R15
+vtc_clk_mux2
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 Ddz@c3geJTHzUlejJh0^b1
+I1M:KLLg0@4EUo>B]6?6oO0
+S1
+R1
+R6
+R167
+R168
+!i122 3
+L0 74 10
+R8
+R9
+r1
+!s85 0
+31
+R32
+R169
+R170
+!i113 0
+R13
+R14
+R15
+vtc_clk_or2
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 Xb2@YhZ[N_8DBknaaIZ^13
+I4HSm`_hjC1>ocUa5PQ`N22
+S1
+R1
+R6
+R167
+R168
+!i122 3
+L0 95 9
+R8
+R9
+r1
+!s85 0
+31
+R32
+R169
+R170
+!i113 0
+R13
+R14
+R15
+vtc_clk_xor2
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 W8e9`:PnDHS6PR8hIz8mJ2
+IA4XER?:?cijHo34AC<nnG1
+S1
+R1
+R6
+R167
+R168
+!i122 3
+L0 85 9
+R8
+R9
+r1
+!s85 0
+31
+R32
+R169
+R170
+!i113 0
+R13
+R14
+R15
+vtc_pwr_isolation_hi
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 ?c:i^3fGZ3PJ_n3kimAnV2
+IYm>VnMiVenFdUB6SFz_WK0
+S1
+R1
+R6
+Z171 8/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/tc_pwr.sv
+Z172 F/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/tc_pwr.sv
+!i122 5
+L0 92 9
+R8
+R9
+r1
+!s85 0
+31
+R32
+Z173 !s107 /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/tc_pwr.sv|
+Z174 !s90 -incr|-sv|-suppress|2583|-suppress|13314|+define+TARGET_RTL|+define+TARGET_SIMULATION|+define+TARGET_TEST|+define+TARGET_VSIM|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/tc_pwr.sv|
+!i113 0
+R13
+R14
+R15
+vtc_pwr_isolation_lo
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 `bzcAFB^=KRm<o@Ri]oOk2
+Ib=OmH`CmQFUALnY_UKlfJ3
+S1
+R1
+R6
+R171
+R172
+!i122 5
+L0 82 9
+R8
+R9
+r1
+!s85 0
+31
+R32
+R173
+R174
+!i113 0
+R13
+R14
+R15
+vtc_pwr_level_shifter_in
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 `X^QUe8PLbZzjKSCJCzM20
+ISIbz_hThCKlbh3K;c:`K;2
+S1
+R1
+R6
+R171
+R172
+!i122 5
+L0 15 8
+R8
+R9
+r1
+!s85 0
+31
+R32
+R173
+R174
+!i113 0
+R13
+R14
+R15
+vtc_pwr_level_shifter_in_clamp_hi
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 T2H@ahXSFJZEeGRXa]8Z>3
+I`Ri6IN@XUIWO3HI<=9cSX2
+S1
+R1
+R6
+R171
+R172
+!i122 5
+L0 34 9
+R8
+R9
+r1
+!s85 0
+31
+R32
+R173
+R174
+!i113 0
+R13
+R14
+R15
+vtc_pwr_level_shifter_in_clamp_lo
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 KBBhgD0K3Lf_oRkQ6ozoi2
+IjfM9a`Zbc1Y54U]H^EL>G3
+S1
+R1
+R6
+R171
+R172
+!i122 5
+L0 24 9
+R8
+R9
+r1
+!s85 0
+31
+R32
+R173
+R174
+!i113 0
+R13
+R14
+R15
+vtc_pwr_level_shifter_out
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 >jR^UXh[;ISAF1[Z11O`?3
+IGNQ052AoU>FabcE@CKTZ13
+S1
+R1
+R6
+R171
+R172
+!i122 5
+L0 44 8
+R8
+R9
+r1
+!s85 0
+31
+R32
+R173
+R174
+!i113 0
+R13
+R14
+R15
+vtc_pwr_level_shifter_out_clamp_hi
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 <0CIO^iFoQ`RED9hQdI;K2
+IcWUH14O3f^2jh;fBFkURA3
+S1
+R1
+R6
+R171
+R172
+!i122 5
+L0 63 9
+R8
+R9
+r1
+!s85 0
+31
+R32
+R173
+R174
+!i113 0
+R13
+R14
+R15
+vtc_pwr_level_shifter_out_clamp_lo
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 @@jWVVhSV7UCNPB=XcXZf2
+IOf[3TM[i7FQ>]jAJ:Ya;=1
+S1
+R1
+R6
+R171
+R172
+!i122 5
+L0 53 9
+R8
+R9
+r1
+!s85 0
+31
+R32
+R173
+R174
+!i113 0
+R13
+R14
+R15
+vtc_pwr_power_gating
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 Z_]CbzRe5ZE2e[Be^mWBU0
+I=YVIk<[[391c`n9azM5GT3
+S1
+R1
+R6
+R171
+R172
+!i122 5
+L0 73 8
+R8
+R9
+r1
+!s85 0
+31
+R32
+R173
+R174
+!i113 0
+R13
+R14
+R15
+vtc_sram
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 6GE^[mj0CY2IhAgMUcd1?0
+IcbSMQ7GnRCFRL<gPc=2?[2
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_sram.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_sram.sv
+!i122 2
+L0 56 190
+R8
+R9
+r1
+!s85 0
+31
+R32
+Z175 !s107 /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_sram_impl.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_sram.sv|
+Z176 !s90 -incr|-sv|-suppress|2583|-suppress|13314|+define+TARGET_RTL|+define+TARGET_SIMULATION|+define+TARGET_TEST|+define+TARGET_VSIM|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_sram.sv|/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_sram_impl.sv|
+!i113 0
+R13
+R14
+R15
+vtc_sram_impl
+R2
+R3
+R4
+R5
+!i10b 1
+!s100 ^VANgRLiNHV:SdKQ0RzUU0
+I=^gVC=WUoikZm6U1jNc:n3
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_sram_impl.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_sram_impl.sv
+!i122 2
+L0 27 58
+R8
+R9
+r1
+!s85 0
+31
+R32
+R175
+R176
+!i113 0
+R13
+R14
+R15
+Tvopt_tb
+!s110 1685386492
+VAkmScf2TSHbXT9f?Y5alZ2
+04 7 4 work tb_hwpe fast 0
+R0
+!s12b OEM100
+!s124 OEM100
+o+acc=npr -floatparameters+tb_hwpe -work work
+R15
+nvopt_tb
+OE;O;2023.1;77
+vzeroriscy_alu
+r1
+R162
+R2
+R4
+Z177 DXx4 work 17 zeroriscy_defines 0 22 aNdjQY1`lWj24bLGmVXU_1
+DXx4 work 21 zeroriscy_alu_sv_unit 0 22 SYN6FWo>NLaRJR@iegXJ03
+R8
+!i10b 1
+!s100 l?GgaShVdRP0?=>NFnY6O0
+I5UDo?2gg=F2<lNUKjPj9]2
+!s105 zeroriscy_alu_sv_unit
+S1
+R1
+R6
+Z178 8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_alu.sv
+Z179 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_alu.sv
+!i122 12
+L0 30 252
+R9
+31
+R133
+Z180 !s107 /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include/zeroriscy_config.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_core.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_tracer.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_fetch_fifo.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_prefetch_buffer.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_multdiv_fast.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_multdiv_slow.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_load_store_unit.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_if_stage.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_id_stage.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_register_file_ff.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_ex_block.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_int_controller.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_decoder.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_debug_unit.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_cs_registers.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_controller.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_compressed_decoder.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_alu.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include/zeroriscy_tracer_defines.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include/zeroriscy_defines.sv|
+Z181 !s90 -incr|-sv|-suppress|2583|-suppress|13314|+define+TARGET_RTL|+define+TARGET_SIMULATION|+define+TARGET_TEST|+define+TARGET_VSIM|+incdir+/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include/zeroriscy_defines.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include/zeroriscy_tracer_defines.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_alu.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_compressed_decoder.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_controller.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_cs_registers.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_debug_unit.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_decoder.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_int_controller.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_ex_block.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_register_file_ff.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_id_stage.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_if_stage.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_load_store_unit.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_multdiv_slow.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_multdiv_fast.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_prefetch_buffer.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_fetch_fifo.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_tracer.sv|/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_core.sv|
+!i113 0
+R13
+Z182 !s92 -suppress 2583 -suppress 13314 -sv +define+TARGET_RTL +define+TARGET_SIMULATION +define+TARGET_TEST +define+TARGET_VSIM +incdir+/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include
+R15
+Xzeroriscy_alu_sv_unit
+R2
+R161
+R4
+R177
+R162
+VSYN6FWo>NLaRJR@iegXJ03
+r1
+!s85 0
+!i10b 1
+!s100 UAO81XQ_h2Be<33Taj7k[3
+ISYN6FWo>NLaRJR@iegXJ03
+!i103 1
+S1
+R1
+R6
+R178
+R179
+Z183 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include/zeroriscy_config.sv
+!i122 12
+L0 28 0
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_compressed_decoder
+r1
+R162
+R2
+R4
+R177
+DXx4 work 36 zeroriscy_compressed_decoder_sv_unit 0 22 nW=TWZ0i=hJkX?5Y07jKD0
+R8
+!i10b 1
+!s100 [cOh]koPJzD06V2DFaCSH1
+Id4Ef@?f4`<:F9m`n`H[af1
+!s105 zeroriscy_compressed_decoder_sv_unit
+S1
+R1
+R6
+Z184 8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_compressed_decoder.sv
+Z185 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_compressed_decoder.sv
+!i122 12
+L0 27 208
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_compressed_decoder_sv_unit
+R2
+R161
+R4
+R177
+R162
+VnW=TWZ0i=hJkX?5Y07jKD0
+r1
+!s85 0
+!i10b 1
+!s100 Y=hM_0JZ]jm85RGDKI>am1
+InW=TWZ0i=hJkX?5Y07jKD0
+!i103 1
+S1
+R1
+R6
+R184
+R185
+!i122 12
+L0 25 0
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_controller
+r1
+R162
+R2
+R4
+R177
+DXx4 work 28 zeroriscy_controller_sv_unit 0 22 EUT<ePg10Q^GLeCE?OPTc1
+R8
+!i10b 1
+!s100 cfTbNFP_LK2eL;Dz?T`ei2
+I[lKXAE6eVe@Nj7_CH@>1]3
+!s105 zeroriscy_controller_sv_unit
+S1
+R1
+R6
+Z186 8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_controller.sv
+Z187 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_controller.sv
+!i122 12
+L0 33 488
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_controller_sv_unit
+R2
+R161
+R4
+R177
+R162
+VEUT<ePg10Q^GLeCE?OPTc1
+r1
+!s85 0
+!i10b 1
+!s100 e^0:gP_bWVdHAaUd6KNAk1
+IEUT<ePg10Q^GLeCE?OPTc1
+!i103 1
+S1
+R1
+R6
+R186
+R187
+R183
+!i122 12
+Z188 L0 30 0
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_core
+r1
+R162
+R2
+R4
+R177
+DXx4 work 22 zeroriscy_core_sv_unit 0 22 aYNNP09nZZ7Z6g[fUL7Fi1
+R8
+!i10b 1
+!s100 HCaUij2QcIZzn<iERf8EY2
+I6`<23b4<nJKJ=NJ2^Mz=m1
+!s105 zeroriscy_core_sv_unit
+S1
+R1
+R6
+Z189 8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_core.sv
+Z190 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_core.sv
+!i122 12
+L0 33 702
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_core_sv_unit
+R2
+R161
+R4
+R177
+R162
+VaYNNP09nZZ7Z6g[fUL7Fi1
+r1
+!s85 0
+!i10b 1
+!s100 ;8nKfWK=kHb`H`M4`N_W?2
+IaYNNP09nZZ7Z6g[fUL7Fi1
+!i103 1
+S1
+R1
+R6
+R189
+R190
+R183
+!i122 12
+R94
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_cs_registers
+r1
+R162
+R2
+R4
+R177
+DXx4 work 30 zeroriscy_cs_registers_sv_unit 0 22 S=l;BacUdL28U`OU2dzNg3
+R8
+!i10b 1
+!s100 gjcEN>B<0_[49:YY29njY0
+IPn2NCV[:3A=[>fTjh:a_b0
+!s105 zeroriscy_cs_registers_sv_unit
+S1
+R1
+R6
+Z191 8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_cs_registers.sv
+Z192 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_cs_registers.sv
+!i122 12
+L0 37 441
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_cs_registers_sv_unit
+R2
+R161
+R4
+R177
+R162
+VS=l;BacUdL28U`OU2dzNg3
+r1
+!s85 0
+!i10b 1
+!s100 ;lochg<AB5^7^gCFRHj2n1
+IS=l;BacUdL28U`OU2dzNg3
+!i103 1
+S1
+R1
+R6
+R191
+R192
+R183
+!i122 12
+R140
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_debug_unit
+r1
+R162
+R2
+R4
+R177
+DXx4 work 28 zeroriscy_debug_unit_sv_unit 0 22 KI[GW>GmUBFFPZ:@4XDzQ2
+R8
+!i10b 1
+!s100 @A>FkKHz@<77n?O^if[cg2
+Id9j_0X=kY;[6dj^bcg`Zo0
+!s105 zeroriscy_debug_unit_sv_unit
+S1
+R1
+R6
+Z193 8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_debug_unit.sv
+Z194 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_debug_unit.sv
+!i122 12
+L0 29 460
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_debug_unit_sv_unit
+R2
+R161
+R4
+R177
+R162
+VKI[GW>GmUBFFPZ:@4XDzQ2
+r1
+!s85 0
+!i10b 1
+!s100 o[IziT??@z@dOzhE9S[TF2
+IKI[GW>GmUBFFPZ:@4XDzQ2
+!i103 1
+S1
+R1
+R6
+R193
+R194
+R183
+!i122 12
+L0 27 0
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_decoder
+r1
+R162
+R2
+R4
+R177
+DXx4 work 25 zeroriscy_decoder_sv_unit 0 22 dhU=:og^BS6L^E=mPIa]D2
+R8
+!i10b 1
+!s100 kbWUlSea6^?f<YCT3]A5R2
+IO2o`ac2fzPSjcHDVIKi8M3
+!s105 zeroriscy_decoder_sv_unit
+S1
+R1
+R6
+Z195 8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_decoder.sv
+Z196 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_decoder.sv
+!i122 12
+L0 33 551
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_decoder_sv_unit
+R2
+R161
+R4
+R177
+R162
+VdhU=:og^BS6L^E=mPIa]D2
+r1
+!s85 0
+!i10b 1
+!s100 @`MDMa1]Xn5;b=<kVfT>30
+IdhU=:og^BS6L^E=mPIa]D2
+!i103 1
+S1
+R1
+R6
+R195
+R196
+R183
+!i122 12
+R94
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_defines
+R2
+R161
+R4
+R162
+!i10b 1
+!s100 B`^l7_ESM?ezJ2^B9>Bd22
+IaNdjQY1`lWj24bLGmVXU_1
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include/zeroriscy_defines.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include/zeroriscy_defines.sv
+!i122 12
+L0 26 0
+VaNdjQY1`lWj24bLGmVXU_1
+R9
+r1
+!s85 0
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_ex_block
+r1
+R162
+R2
+R4
+R177
+DXx4 work 26 zeroriscy_ex_block_sv_unit 0 22 0b@aeX@eVVHLj6eeFZ[b@2
+R8
+!i10b 1
+!s100 HFeKjgi5B1DM@LNeGI<0W1
+I=XZ8Uco81WMW<I>z9K5kb2
+!s105 zeroriscy_ex_block_sv_unit
+S1
+R1
+R6
+Z197 8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_ex_block.sv
+Z198 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_ex_block.sv
+!i122 12
+L0 33 156
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_ex_block_sv_unit
+R2
+R161
+R4
+R177
+R162
+V0b@aeX@eVVHLj6eeFZ[b@2
+r1
+!s85 0
+!i10b 1
+!s100 A;1M?dzhWggDHo3LAMQcG0
+I0b@aeX@eVVHLj6eeFZ[b@2
+!i103 1
+S1
+R1
+R6
+R197
+R198
+R183
+!i122 12
+R94
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_fetch_fifo
+R2
+R161
+R4
+R162
+!i10b 1
+!s100 24?lGVk^8L426KbHSMOk00
+I2NYAf7VH2X9DKbgLo90^a1
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_fetch_fifo.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_fetch_fifo.sv
+!i122 12
+L0 26 205
+R8
+R9
+r1
+!s85 0
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_id_stage
+r1
+R162
+R2
+R4
+R177
+DXx4 work 26 zeroriscy_id_stage_sv_unit 0 22 VYRl4PeRjT@XfXZnCj4UB1
+R8
+!i10b 1
+!s100 G5M=zXW:ST=eR`4?dmNof1
+IRd;j^egMhcc3ECj[0khXV2
+!s105 zeroriscy_id_stage_sv_unit
+S1
+R1
+R6
+Z199 8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_id_stage.sv
+Z200 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_id_stage.sv
+!i122 12
+L0 40 750
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_id_stage_sv_unit
+R2
+R161
+R4
+R177
+R162
+VVYRl4PeRjT@XfXZnCj4UB1
+r1
+!s85 0
+!i10b 1
+!s100 =hSh64_bULI;Z49TbOUDk3
+IVYRl4PeRjT@XfXZnCj4UB1
+!i103 1
+S1
+R1
+R6
+R199
+R200
+R183
+!i122 12
+R94
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_if_stage
+r1
+R162
+R2
+R4
+R177
+DXx4 work 26 zeroriscy_if_stage_sv_unit 0 22 n]aijA4YW;CO;@T`VjGZB0
+R8
+!i10b 1
+!s100 0eiLDhbDAVk4Uc]mWHG@90
+IXcOdGgg_j:L6jl[a[JzzA1
+!s105 zeroriscy_if_stage_sv_unit
+S1
+R1
+R6
+Z201 8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_if_stage.sv
+Z202 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_if_stage.sv
+!i122 12
+L0 32 246
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_if_stage_sv_unit
+R2
+R161
+R4
+R177
+R162
+Vn]aijA4YW;CO;@T`VjGZB0
+r1
+!s85 0
+!i10b 1
+!s100 [?4_zMA0WTC_KOCi:`SSU2
+In]aijA4YW;CO;@T`VjGZB0
+!i103 1
+S1
+R1
+R6
+R201
+R202
+R183
+!i122 12
+R188
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_int_controller
+r1
+R162
+R2
+R4
+R177
+DXx4 work 32 zeroriscy_int_controller_sv_unit 0 22 eeCLj7F8SFm^=a`V];aLA3
+R8
+!i10b 1
+!s100 7>CA:DEYSnJ1RCCeGFL<F3
+I7^o:hEdlWQLNalI41GKZj2
+!s105 zeroriscy_int_controller_sv_unit
+S1
+R1
+R6
+Z203 8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_int_controller.sv
+Z204 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_int_controller.sv
+!i122 12
+L0 26 83
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_int_controller_sv_unit
+R2
+R161
+R4
+R177
+R162
+VeeCLj7F8SFm^=a`V];aLA3
+r1
+!s85 0
+!i10b 1
+!s100 @]hMi_0nhGJ_bbY0JV`]S2
+IeeCLj7F8SFm^=a`V];aLA3
+!i103 1
+S1
+R1
+R6
+R203
+R204
+!i122 12
+L0 24 0
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_load_store_unit
+R2
+R161
+R4
+R162
+!i10b 1
+!s100 _9o`^2NR4dIL]abZnI_FL1
+IDXg^O50K;H:9iHN4`1N9m2
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_load_store_unit.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_load_store_unit.sv
+!i122 12
+L0 30 470
+R8
+R9
+r1
+!s85 0
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_multdiv_fast
+r1
+R162
+R2
+R4
+R177
+DXx4 work 30 zeroriscy_multdiv_fast_sv_unit 0 22 C@h0_?]Vk:hi[H5MAn:P_3
+R8
+!i10b 1
+!s100 G2_OiYK[:g2BnQ76S?jKg0
+I[d4WiNN>d>aV7dh6cEYA]1
+!s105 zeroriscy_multdiv_fast_sv_unit
+S1
+R1
+R6
+Z205 8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_multdiv_fast.sv
+Z206 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_multdiv_fast.sv
+!i122 12
+L0 28 312
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_multdiv_fast_sv_unit
+R2
+R161
+R4
+R177
+R162
+VC@h0_?]Vk:hi[H5MAn:P_3
+r1
+!s85 0
+!i10b 1
+!s100 UECCXoIdDgij9DYWRkQ1K2
+IC@h0_?]Vk:hi[H5MAn:P_3
+!i103 1
+S1
+R1
+R6
+R205
+R206
+!i122 12
+R63
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_multdiv_slow
+r1
+R162
+R2
+R4
+R177
+DXx4 work 30 zeroriscy_multdiv_slow_sv_unit 0 22 ]a>[QjnN6M94Q_9_]YUbT1
+R8
+!i10b 1
+!s100 ;EjP0S<b1zW[E3z_SKW0L0
+IZPKedLn[M:zEaFZc<lM=G2
+!s105 zeroriscy_multdiv_slow_sv_unit
+S1
+R1
+R6
+Z207 8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_multdiv_slow.sv
+Z208 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_multdiv_slow.sv
+!i122 12
+L0 26 275
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_multdiv_slow_sv_unit
+R2
+R161
+R4
+R177
+R162
+V]a>[QjnN6M94Q_9_]YUbT1
+r1
+!s85 0
+!i10b 1
+!s100 D8^Z<1QO4z8l`5Xo=N1GX2
+I]a>[QjnN6M94Q_9_]YUbT1
+!i103 1
+S1
+R1
+R6
+R207
+R208
+!i122 12
+R63
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_prefetch_buffer
+R2
+R161
+R4
+R162
+!i10b 1
+!s100 i0e0akei`=hine7Snfi[o1
+IB]Mz?gggQAJ3NBh2cKdme1
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_prefetch_buffer.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_prefetch_buffer.sv
+!i122 12
+L0 23 230
+R8
+R9
+r1
+!s85 0
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_register_file
+R2
+R161
+R4
+R162
+!i10b 1
+!s100 j3fU]kKU:g:<aDiY9Rk@^3
+IVN5S_okB[E:G?lUcLWIIB3
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_register_file_ff.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_register_file_ff.sv
+!i122 12
+L0 29 75
+R8
+R9
+r1
+!s85 0
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+vzeroriscy_tracer
+r1
+R162
+R2
+R4
+R177
+Z209 DXx4 work 24 zeroriscy_tracer_defines 0 22 DTo:Se99b@LLDU^UUmbh:2
+DXx4 work 24 zeroriscy_tracer_sv_unit 0 22 k?07lVN3kab19Xco?kS5h2
+R8
+!i10b 1
+!s100 hoK:1d=eZO[jPTQ0G2ec20
+Iz2JUMHc0:a_cXoVVY_DJd2
+!s105 zeroriscy_tracer_sv_unit
+S1
+R1
+R6
+Z210 8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_tracer.sv
+Z211 F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_tracer.sv
+!i122 12
+L0 41 403
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_tracer_defines
+R2
+R161
+R4
+R177
+R162
+!i10b 1
+!s100 zS`FRj0b5V5lYaSzK@SUQ0
+IDTo:Se99b@LLDU^UUmbh:2
+S1
+R1
+R6
+8/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include/zeroriscy_tracer_defines.sv
+F/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include/zeroriscy_tracer_defines.sv
+!i122 12
+L0 11 0
+VDTo:Se99b@LLDU^UUmbh:2
+R9
+r1
+!s85 0
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
+Xzeroriscy_tracer_sv_unit
+R2
+R161
+R4
+R177
+R209
+R162
+Vk?07lVN3kab19Xco?kS5h2
+r1
+!s85 0
+!i10b 1
+!s100 nZK=R_8UiII38=o?QAF<91
+Ik?07lVN3kab19Xco?kS5h2
+!i103 1
+S1
+R1
+R6
+R210
+R211
+R183
+!i122 12
+R188
+R9
+31
+R133
+R180
+R181
+!i113 0
+R13
+R182
+R15
