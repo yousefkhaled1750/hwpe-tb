@@ -65,7 +65,7 @@ int main() {
   hwpe_nb_iter_set(4);
   hwpe_len_iter_set(32-1);
   hwpe_vectstride_set(32*4);
-  hwpe_shift_simplemul_set(hwpe_shift_simplemul_value(0, 0));
+  hwpe_shift_simplemul_set(hwpe_shift_simplemul_value(0, 0)); //simple_mul and shift = 0
 
   // start hwpe operation
   hwpe_trigger_job();
