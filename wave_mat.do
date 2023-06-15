@@ -103,28 +103,6 @@ add wave -noupdate -expand -group mac_stream_a -expand -group a_prefifo /tb_hwpe
 add wave -noupdate -expand -group mac_stream_a -expand -group a_prefifo /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/a_prefifo/ready
 add wave -noupdate -expand -group mac_stream_a -expand -group a_prefifo /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/a_prefifo/data
 add wave -noupdate -expand -group mac_stream_a -expand -group a_prefifo /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/a_prefifo/strb
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/clk_i
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/rst_ni
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/test_mode_i
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/clear_i
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/tcdm_fifo_ready_o
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source -expand -subitemconfig {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/ctrl_i.addressgen_ctrl -expand} /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/ctrl_i
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source -expand -subitemconfig {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/flags_o.addressgen_flags -expand} /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/flags_o
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/cs
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/ns
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/done
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/address_gen_en
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/address_gen_clr
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/gen_addr
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/gen_strb
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/tcdm_int_req
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/tcdm_int_gnt
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/tcdm_split_gnt
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/overall_cnt_q
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/overall_cnt_d
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/overall_none
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/fence_hs
-add wave -noupdate -expand -group mac_stream_b -expand -group b_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_b_source/kill_req
 add wave -noupdate -expand -group mac_stream_b -group tcdm_b {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[1]/req}
 add wave -noupdate -expand -group mac_stream_b -group tcdm_b {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[1]/gnt}
 add wave -noupdate -expand -group mac_stream_b -group tcdm_b {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[1]/add}
@@ -133,76 +111,6 @@ add wave -noupdate -expand -group mac_stream_b -group tcdm_b {/tb_hwpe/i_hwpe_to
 add wave -noupdate -expand -group mac_stream_b -group tcdm_b {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[1]/data}
 add wave -noupdate -expand -group mac_stream_b -group tcdm_b {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[1]/r_data}
 add wave -noupdate -expand -group mac_stream_b -group tcdm_b {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[1]/r_valid}
-add wave -noupdate -expand -group mac_stream_b -group b_prefifo /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/b_prefifo/clk
-add wave -noupdate -expand -group mac_stream_b -group b_prefifo /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/b_prefifo/valid
-add wave -noupdate -expand -group mac_stream_b -group b_prefifo /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/b_prefifo/ready
-add wave -noupdate -expand -group mac_stream_b -group b_prefifo /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/b_prefifo/data
-add wave -noupdate -expand -group mac_stream_b -group b_prefifo /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/b_prefifo/strb
-add wave -noupdate -expand -group mac_stream_b -group b_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_1[0]/clk}
-add wave -noupdate -expand -group mac_stream_b -group b_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_1[0]/req}
-add wave -noupdate -expand -group mac_stream_b -group b_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_1[0]/gnt}
-add wave -noupdate -expand -group mac_stream_b -group b_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_1[0]/add}
-add wave -noupdate -expand -group mac_stream_b -group b_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_1[0]/wen}
-add wave -noupdate -expand -group mac_stream_b -group b_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_1[0]/be}
-add wave -noupdate -expand -group mac_stream_b -group b_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_1[0]/data}
-add wave -noupdate -expand -group mac_stream_b -group b_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_1[0]/r_data}
-add wave -noupdate -expand -group mac_stream_b -group b_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_1[0]/r_valid}
-add wave -noupdate -expand -group mac_stream_c -group c_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/c/strb
-add wave -noupdate -expand -group mac_stream_c -group c_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/c/data
-add wave -noupdate -expand -group mac_stream_c -group c_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/c/ready
-add wave -noupdate -expand -group mac_stream_c -group c_source /tb_hwpe/i_hwpe_top_wrap/i_mac_top/c/valid
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/clk_i
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/rst_ni
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/test_mode_i
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/clear_i
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/tcdm_fifo_ready_o
-add wave -noupdate -expand -group mac_stream_c -expand -subitemconfig {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/ctrl_i.addressgen_ctrl -expand} /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/ctrl_i
-add wave -noupdate -expand -group mac_stream_c -expand -subitemconfig {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/flags_o.addressgen_flags -expand} /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/flags_o
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/cs
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/ns
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/done
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/address_gen_en
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/address_gen_clr
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/gen_addr
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/gen_strb
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/tcdm_int_req
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/tcdm_int_gnt
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/tcdm_split_gnt
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/overall_cnt_q
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/overall_cnt_d
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/overall_none
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/fence_hs
-add wave -noupdate -expand -group mac_stream_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_c_source/kill_req
-add wave -noupdate -expand -group mac_stream_c -expand -group tcdm_c {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[2]/req}
-add wave -noupdate -expand -group mac_stream_c -expand -group tcdm_c {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[2]/gnt}
-add wave -noupdate -expand -group mac_stream_c -expand -group tcdm_c {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[2]/add}
-add wave -noupdate -expand -group mac_stream_c -expand -group tcdm_c {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[2]/wen}
-add wave -noupdate -expand -group mac_stream_c -expand -group tcdm_c {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[2]/be}
-add wave -noupdate -expand -group mac_stream_c -expand -group tcdm_c {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[2]/data}
-add wave -noupdate -expand -group mac_stream_c -expand -group tcdm_c {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[2]/r_data}
-add wave -noupdate -expand -group mac_stream_c -expand -group tcdm_c {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[2]/r_valid}
-add wave -noupdate -expand -group mac_stream_c -expand -group c_prefifo /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/c_prefifo/clk
-add wave -noupdate -expand -group mac_stream_c -expand -group c_prefifo /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/c_prefifo/valid
-add wave -noupdate -expand -group mac_stream_c -expand -group c_prefifo /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/c_prefifo/ready
-add wave -noupdate -expand -group mac_stream_c -expand -group c_prefifo /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/c_prefifo/data
-add wave -noupdate -expand -group mac_stream_c -expand -group c_prefifo /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/c_prefifo/strb
-add wave -noupdate -expand -group mac_stream_c -group c_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_2[0]/clk}
-add wave -noupdate -expand -group mac_stream_c -group c_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_2[0]/req}
-add wave -noupdate -expand -group mac_stream_c -group c_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_2[0]/gnt}
-add wave -noupdate -expand -group mac_stream_c -group c_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_2[0]/add}
-add wave -noupdate -expand -group mac_stream_c -group c_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_2[0]/wen}
-add wave -noupdate -expand -group mac_stream_c -group c_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_2[0]/be}
-add wave -noupdate -expand -group mac_stream_c -group c_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_2[0]/data}
-add wave -noupdate -expand -group mac_stream_c -group c_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_2[0]/r_data}
-add wave -noupdate -expand -group mac_stream_c -group c_tcdm_fifo {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/tcdm_fifo_2[0]/r_valid}
-add wave -noupdate -expand -group mac_stream_d -group tcdm_d {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[3]/req}
-add wave -noupdate -expand -group mac_stream_d -group tcdm_d {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[3]/gnt}
-add wave -noupdate -expand -group mac_stream_d -group tcdm_d {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[3]/add}
-add wave -noupdate -expand -group mac_stream_d -group tcdm_d {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[3]/wen}
-add wave -noupdate -expand -group mac_stream_d -group tcdm_d {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[3]/be}
-add wave -noupdate -expand -group mac_stream_d -group tcdm_d {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[3]/data}
-add wave -noupdate -expand -group mac_stream_d -group tcdm_d {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[3]/r_data}
-add wave -noupdate -expand -group mac_stream_d -group tcdm_d {/tb_hwpe/i_hwpe_top_wrap/i_mac_top/tcdm[3]/r_valid}
 add wave -noupdate -expand -group mac_stream_d -expand -group d_sink /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_d_sink/clk_i
 add wave -noupdate -expand -group mac_stream_d -expand -group d_sink /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_d_sink/rst_ni
 add wave -noupdate -expand -group mac_stream_d -expand -group d_sink /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_streamer/i_d_sink/test_mode_i
@@ -352,36 +260,56 @@ add wave -noupdate -expand -group engine -expand /tb_hwpe/i_hwpe_top_wrap/i_mac_
 add wave -noupdate -expand -group engine -expand /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/flags_o
 add wave -noupdate -expand -group engine /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/cnt
 add wave -noupdate -expand -group engine -radix decimal /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/r_cnt
-add wave -noupdate -expand -group engine /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/c_shifted
-add wave -noupdate -expand -group engine /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mult
-add wave -noupdate -expand -group engine /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/r_mult
-add wave -noupdate -expand -group engine /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/r_mult_valid
-add wave -noupdate -expand -group engine /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/r_mult_ready
-add wave -noupdate -expand -group engine /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/r_acc
-add wave -noupdate -expand -group engine /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/r_acc_valid
-add wave -noupdate -expand -group engine /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/r_acc_ready
-add wave -noupdate -expand -group engine /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/d_nonshifted
-add wave -noupdate -expand -group engine /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/d_nonshifted_valid
 add wave -noupdate -expand -group engine -expand -group engine_a /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/a_i/clk
 add wave -noupdate -expand -group engine -expand -group engine_a /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/a_i/valid
 add wave -noupdate -expand -group engine -expand -group engine_a /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/a_i/ready
 add wave -noupdate -expand -group engine -expand -group engine_a /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/a_i/data
 add wave -noupdate -expand -group engine -expand -group engine_a /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/a_i/strb
-add wave -noupdate -expand -group engine -group engine_b /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/b_i/clk
-add wave -noupdate -expand -group engine -group engine_b /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/b_i/valid
-add wave -noupdate -expand -group engine -group engine_b /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/b_i/ready
-add wave -noupdate -expand -group engine -group engine_b /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/b_i/data
-add wave -noupdate -expand -group engine -group engine_b /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/b_i/strb
-add wave -noupdate -expand -group engine -group engine_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/c_i/clk
-add wave -noupdate -expand -group engine -group engine_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/c_i/valid
-add wave -noupdate -expand -group engine -group engine_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/c_i/ready
-add wave -noupdate -expand -group engine -group engine_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/c_i/data
-add wave -noupdate -expand -group engine -group engine_c /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/c_i/strb
 add wave -noupdate -expand -group engine -group engine_d /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/d_o/clk
 add wave -noupdate -expand -group engine -group engine_d /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/d_o/valid
 add wave -noupdate -expand -group engine -group engine_d /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/d_o/ready
 add wave -noupdate -expand -group engine -group engine_d /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/d_o/data
 add wave -noupdate -expand -group engine -group engine_d /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/d_o/strb
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/clk_i
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/rst_ni
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/clear_i
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/cnt_i
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/mat_valid_o
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/b11
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/b12
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/b13
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/b21
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/b22
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/b23
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/b31
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/b32
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/b33
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/enable
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a11
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a12
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a13
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a21
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a22
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a23
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a31
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a32
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a33
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a11_en
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a12_en
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a13_en
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a21_en
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a22_en
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a23_en
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a31_en
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a32_en
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/a33_en
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/counter
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/mat_inv_i/current_state
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/mat_inv_i/next_state
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/mat_inv_i/counter_enable
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/mat_inv_i/count
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/mat_inv_i/finished
+add wave -noupdate -expand -group engine -group mat_inv /tb_hwpe/i_hwpe_top_wrap/i_mac_top/i_engine/mat_inv_top_i/mat_inv_i/factor
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {160361 ps} 0}
 quietly wave cursor active 1

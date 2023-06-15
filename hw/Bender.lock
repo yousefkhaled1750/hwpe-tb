@@ -1,9 +1,9 @@
 packages:
   common_verification:
-    revision: 9c07fa860593b2caabd9b5681740c25fac04b878
-    version: 0.2.3
+    revision: null
+    version: null
     source:
-      Git: https://github.com/pulp-platform/common_verification.git
+      Path: ips/common_verification
     dependencies: []
   hwpe-ctrl:
     revision: null
@@ -20,6 +20,7 @@ packages:
     dependencies:
     - hwpe-ctrl
     - hwpe-stream
+    - matrix_inversion
   hwpe-stream:
     revision: null
     version: null
@@ -27,22 +28,28 @@ packages:
       Path: ips/hwpe-stream
     dependencies:
     - tech_cells_generic
-  scm:
-    revision: 998466d2a3c2d7d572e43d2666d93c4f767d8d60
-    version: 1.1.1
+  matrix_inversion:
+    revision: null
+    version: null
     source:
-      Git: https://github.com/pulp-platform/scm.git
+      Path: ips/matrix_inversion
+    dependencies: []
+  scm:
+    revision: null
+    version: null
+    source:
+      Path: ips/scm
     dependencies: []
   tech_cells_generic:
-    revision: a9cae21902e75b1434328ecf36f85327ba5717de
-    version: 0.2.11
+    revision: null
+    version: null
     source:
-      Git: https://github.com/pulp-platform/tech_cells_generic.git
+      Path: ips/tech_cells_generic
     dependencies:
     - common_verification
   zeroriscy:
-    revision: 030b03da470c355176f23c0a50479414323fa8e3
+    revision: null
     version: null
     source:
-      Git: https://github.com/FrancescoConti/ibex.git
+      Path: ips/zeroriscy
     dependencies: []

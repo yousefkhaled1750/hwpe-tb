@@ -234,3 +234,20 @@ if {[catch {vlog -incr -sv \
     "$ROOT/rtl/tb_dummy_memory.sv" \
     "$ROOT/rtl/tb_hwpe.sv"
 }]} {return 1}
+
+
+
+if {[catch {vlog -incr -sv \
+    -suppress 2583 -suppress 13314 \
+    +define+TARGET_RTL \
+    +define+TARGET_SIMULATION \
+    +define+TARGET_TEST \
+    +define+TARGET_VSIM \
+    "+incdir+$ROOT/ips/matrix_inversion/rtl" \
+            "$ROOT/ips/matrix_inversion/rtl/cordic_block.v" \
+            "$ROOT/ips/matrix_inversion/rtl/cordic_rotating.v" \
+            "$ROOT/ips/matrix_inversion/rtl/cordic_vectoring.v" \
+            "$ROOT/ips/matrix_inversion/rtl/multiply.v" \
+            "$ROOT/ips/matrix_inversion/rtl/matrix_inversion.v" \
+            "$ROOT/ips/matrix_inversion/rtl/mat_inv_top.sv"
+}]} {return 1}

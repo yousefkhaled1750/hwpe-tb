@@ -8,8 +8,9 @@ package:
 dependencies:
   hwpe-ctrl:          { path: "ips/hwpe-ctrl"                                                         }
   zeroriscy:          { git: "https://github.com/FrancescoConti/ibex.git", rev: "bender"              }
-  hwpe-mac-engine:    { path: "ips/hwpe-mac-engine"                                                   }
+  hwpe-mac-engine:    { git: "https://github.com/yousefkhaled1750/hwpe-mac-engine.git", rev: "950e3f0257c1e49849030612d7e508637fb08cf4"}
   hwpe-stream:        { path: "ips/hwpe-stream"                                                       }
+  matrix_inversion:   { git: "https://github.com/yousefkhaled1750/Matrix_Inversion_HDL.git", rev: "25c114e56d14e830eb4db869d25f6a499429a287" }
   scm:                { git: "https://github.com/pulp-platform/scm.git", rev: "master"                }
   tech_cells_generic: { git: "https://github.com/pulp-platform/tech_cells_generic.git", rev: "master" }
 
