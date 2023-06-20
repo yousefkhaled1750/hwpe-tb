@@ -101,8 +101,12 @@ static inline void hwpe_len_iter_set(unsigned int value) {
   HWPE_WRITE(value, HWPE_LEN_ITER);
 }
 
-static inline void hwpe_shift_simplemul_set(unsigned int value) {
-  HWPE_WRITE(value, HWPE_SHIFT_SIMPLEMUL);
+// static inline void hwpe_shift_simplemul_set(unsigned int value) {
+//   HWPE_WRITE(value, HWPE_SHIFT_SIMPLEMUL);
+// }
+
+static inline void hwpe_mu_set(unsigned int value) {
+  HWPE_WRITE(value, HWPE_MU);
 }
 
 static inline void hwpe_vectstride_set(unsigned int value) {

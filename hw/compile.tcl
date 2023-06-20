@@ -251,3 +251,26 @@ if {[catch {vlog -incr -sv \
             "$ROOT/ips/matrix_inversion/rtl/matrix_inversion.v" \
             "$ROOT/ips/matrix_inversion/rtl/mat_inv_top.sv"
 }]} {return 1}
+
+
+
+if {[catch {vlog -incr -sv \
+    -suppress 2583 -suppress 13314 \
+    +define+TARGET_RTL \
+    +define+TARGET_SIMULATION \
+    +define+TARGET_TEST \
+    +define+TARGET_VSIM \
+    "+incdir+$ROOT/ips/farrow_filter/rtl" \
+            "$ROOT/ips/farrow_filter/rtl/sub.v" \
+            "$ROOT/ips/farrow_filter/rtl/adder.v" \
+            "$ROOT/ips/farrow_filter/rtl/shifter.v" \
+            "$ROOT/ips/farrow_filter/rtl/coff_process.v" \
+            "$ROOT/ips/farrow_filter/rtl/mul_pipelined_param.v" \
+            "$ROOT/ips/farrow_filter/rtl/delay_unit.v" \
+            "$ROOT/ips/farrow_filter/rtl/delay_train.v" \
+            "$ROOT/ips/farrow_filter/rtl/delay_train_transpose_asym.v" \
+            "$ROOT/ips/farrow_filter/rtl/delay_train_transpose_sym.v" \
+            "$ROOT/ips/farrow_filter/rtl/fir_asym.v" \
+            "$ROOT/ips/farrow_filter/rtl/fir_sym.v" \
+            "$ROOT/ips/farrow_filter/rtl/farrow_third_sopot.v"
+}]} {return 1}

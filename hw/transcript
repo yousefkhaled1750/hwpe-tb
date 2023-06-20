@@ -1,6 +1,6 @@
 # source compile.tcl
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:47 on Jun 16,2023
+# Start time: 16:35:12 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" /home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/clk_rst_gen.sv /home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_id_queue.sv /home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_stream_mst.sv /home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_synch_holdable_driver.sv /home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_verif_pkg.sv /home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/signal_highlighter.sv /home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/sim_timeout.sv /home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/stream_watchdog.sv /home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_synch_driver.sv /home/youssef/riscv/hwpe-tb/hw/ips/common_verification/src/rand_stream_slv.sv 
 # -- Compiling module clk_rst_gen
 # -- Compiling package rand_id_queue_pkg
@@ -20,29 +20,29 @@
 # 	sim_timeout
 # 	stream_watchdog
 # 	rand_stream_slv
-# End time: 05:13:47 on Jun 16,2023, Elapsed time: 0:00:00
+# End time: 16:35:12 on Jun 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:47 on Jun 16,2023
+# Start time: 16:35:12 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" /home/youssef/riscv/hwpe-tb/hw/ips/common_verification/test/tb_clk_rst_gen.sv 
 # -- Compiling module tb_clk_rst_gen
 # 
 # Top level modules:
 # 	tb_clk_rst_gen
-# End time: 05:13:47 on Jun 16,2023, Elapsed time: 0:00:00
+# End time: 16:35:13 on Jun 20,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:47 on Jun 16,2023
+# Start time: 16:35:13 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_sram.sv /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_sram_impl.sv 
 # -- Compiling module tc_sram
 # -- Compiling module tc_sram_impl
 # 
 # Top level modules:
 # 	tc_sram_impl
-# End time: 05:13:47 on Jun 16,2023, Elapsed time: 0:00:00
+# End time: 16:35:13 on Jun 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:47 on Jun 16,2023
+# Start time: 16:35:13 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/rtl/tc_clk.sv 
 # -- Compiling module tc_clk_and2
 # -- Compiling module tc_clk_buffer
@@ -62,10 +62,10 @@
 # 	tc_clk_xor2
 # 	tc_clk_or2
 # 	tc_clk_delay
-# End time: 05:13:47 on Jun 16,2023, Elapsed time: 0:00:00
+# End time: 16:35:13 on Jun 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:47 on Jun 16,2023
+# Start time: 16:35:13 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/cluster_pwr_cells.sv /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/generic_memory.sv /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/generic_rom.sv /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pad_functional.sv /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_buffer.sv /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_pwr_cells.sv 
 # -- Compiling module cluster_level_shifter_in
 # -- Compiling module cluster_level_shifter_in_clamp
@@ -105,10 +105,10 @@
 # 	pulp_power_gating
 # 	pulp_isolation_0
 # 	pulp_isolation_1
-# End time: 05:13:48 on Jun 16,2023, Elapsed time: 0:00:01
+# End time: 16:35:13 on Jun 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:48 on Jun 16,2023
+# Start time: 16:35:13 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/tc_pwr.sv 
 # -- Compiling module tc_pwr_level_shifter_in
 # -- Compiling module tc_pwr_level_shifter_in_clamp_lo
@@ -130,19 +130,19 @@
 # 	tc_pwr_power_gating
 # 	tc_pwr_isolation_lo
 # 	tc_pwr_isolation_hi
-# End time: 05:13:48 on Jun 16,2023, Elapsed time: 0:00:00
+# End time: 16:35:13 on Jun 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:48 on Jun 16,2023
+# Start time: 16:35:13 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/test/tb_tc_sram.sv 
 # -- Compiling module tb_tc_sram
 # 
 # Top level modules:
 # 	tb_tc_sram
-# End time: 05:13:48 on Jun 16,2023, Elapsed time: 0:00:00
+# End time: 16:35:13 on Jun 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:48 on Jun 16,2023
+# Start time: 16:35:13 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_clock_gating_async.sv /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/cluster_clk_cells.sv /home/youssef/riscv/hwpe-tb/hw/ips/tech_cells_generic/src/deprecated/pulp_clk_cells.sv 
 # -- Compiling module pulp_clock_gating_async
 # -- Compiling module cluster_clock_and2
@@ -173,10 +173,10 @@
 # 	pulp_clock_mux2
 # 	pulp_clock_xor2
 # 	pulp_clock_delay
-# End time: 05:13:48 on Jun 16,2023, Elapsed time: 0:00:00
+# End time: 16:35:14 on Jun 20,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:48 on Jun 16,2023
+# Start time: 16:35:14 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" "+incdir+/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl" /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_interfaces.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_package.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_seq_mult.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_uloop.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch_test_wrap.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-ctrl/rtl/hwpe_ctrl_slave.sv 
 # -- Compiling interface hwpe_ctrl_intf_periph
 # -- Compiling package hwpe_ctrl_package
@@ -191,10 +191,10 @@
 # 	hwpe_ctrl_seq_mult
 # 	hwpe_ctrl_uloop
 # 	hwpe_ctrl_slave
-# End time: 05:13:48 on Jun 16,2023, Elapsed time: 0:00:00
+# End time: 16:35:14 on Jun 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0, Suppressed Warnings: 8
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:48 on Jun 16,2023
+# Start time: 16:35:14 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" "+incdir+/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl" /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/hwpe_stream_interfaces.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/hwpe_stream_package.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_assign.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_buffer.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_demux_static.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_deserialize.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_fence.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_merge.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_mux_static.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_serialize.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/basic/hwpe_stream_split.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_ctrl.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_scm.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen_v2.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_addressgen_v3.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_sink_realign.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_source_realign.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_strbgen.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_streamer_queue.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_assign.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_mux.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_mux_static.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_reorder.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_reorder_static.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_earlystall.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_earlystall_sidech.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_scm_test_wrap.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo_sidech.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/fifo/hwpe_stream_fifo.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_load_sidech.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_source.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_load.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/tcdm/hwpe_stream_tcdm_fifo_store.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-stream/rtl/streamer/hwpe_stream_sink.sv 
 # -- Compiling interface hwpe_stream_intf_tcdm
 # -- Compiling interface hwpe_stream_intf_stream
@@ -291,24 +291,15 @@
 # 	hwpe_stream_tcdm_fifo
 # 	hwpe_stream_tcdm_fifo_load
 # 	hwpe_stream_sink
-# End time: 05:13:49 on Jun 16,2023, Elapsed time: 0:00:01
+# End time: 16:35:14 on Jun 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0, Suppressed Warnings: 174
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:49 on Jun 16,2023
+# Start time: 16:35:14 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" "+incdir+/home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl" /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_package.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_engine.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_fsm.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_streamer.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_ctrl.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_top.sv /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/wrap/mac_top_wrap.sv 
 # -- Compiling package mac_package_sv_unit
 # -- Compiling package mac_package
 # -- Compiling package mac_engine_sv_unit
 # -- Compiling module mac_engine
-# ** Warning: /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_engine.sv(402): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
-# ** Warning: /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_engine.sv(405): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
-# ** Warning: /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_engine.sv(408): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
-# ** Warning: /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_engine.sv(411): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
-# ** Warning: /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_engine.sv(414): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
-# ** Warning: /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_engine.sv(417): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
-# ** Warning: /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_engine.sv(420): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
-# ** Warning: /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_engine.sv(423): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
-# ** Warning: /home/youssef/riscv/hwpe-tb/hw/ips/hwpe-mac-engine/rtl/mac_engine.sv(426): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
 # -- Compiling package mac_fsm_sv_unit
 # -- Compiling module mac_fsm
 # -- Compiling package mac_streamer_sv_unit
@@ -322,10 +313,10 @@
 # 
 # Top level modules:
 # 	mac_top_wrap
-# End time: 05:13:49 on Jun 16,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 9, Suppressed Warnings: 22
+# End time: 16:35:14 on Jun 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0, Suppressed Warnings: 22
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:49 on Jun 16,2023
+# Start time: 16:35:14 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_test_wrap.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_multi_port_read_32b_1row.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read_1row.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_all.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_all_test_wrap.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_be.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1r_1w_1row.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_128b_multi_port_read_32b.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_multi_port_read_32b.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_64b_1r_32b.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read_be.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_1w_multi_port_read.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_1w_asymm.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_1w_asymm_test_wrap.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_2r_2w.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_3r_2w.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_3r_2w_be.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_multi_way_1w_64b_multi_port_read_32b.sv /home/youssef/riscv/hwpe-tb/hw/ips/scm/latch_scm/register_file_multi_way_1w_multi_port_read.sv 
 # -- Compiling module register_file_1r_1w_test_wrap
 # -- Compiling module register_file_1w_64b_multi_port_read_32b_1row
@@ -365,10 +356,10 @@
 # 	register_file_3r_2w_be
 # 	register_file_multy_way_1w_64b_multi_port_read_32b
 # 	register_file_multi_way_1w_multi_port_read
-# End time: 05:13:49 on Jun 16,2023, Elapsed time: 0:00:00
+# End time: 16:35:15 on Jun 20,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0, Suppressed Warnings: 15
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:49 on Jun 16,2023
+# Start time: 16:35:15 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" "+incdir+/home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include" /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include/zeroriscy_defines.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/include/zeroriscy_tracer_defines.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_alu.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_compressed_decoder.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_controller.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_cs_registers.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_debug_unit.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_decoder.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_int_controller.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_ex_block.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_register_file_ff.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_id_stage.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_if_stage.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_load_store_unit.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_multdiv_slow.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_multdiv_fast.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_prefetch_buffer.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_fetch_fifo.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_tracer.sv /home/youssef/riscv/hwpe-tb/hw/ips/zeroriscy/zeroriscy_core.sv 
 # -- Compiling package zeroriscy_defines
 # -- Compiling package zeroriscy_tracer_defines
@@ -407,20 +398,20 @@
 # 
 # Top level modules:
 # 	zeroriscy_core
-# End time: 05:13:49 on Jun 16,2023, Elapsed time: 0:00:00
+# End time: 16:35:15 on Jun 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:49 on Jun 16,2023
+# Start time: 16:35:15 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" /home/youssef/riscv/hwpe-tb/hw/rtl/tb_dummy_memory.sv /home/youssef/riscv/hwpe-tb/hw/rtl/tb_hwpe.sv 
 # -- Compiling module tb_dummy_memory
 # -- Compiling module tb_hwpe
 # 
 # Top level modules:
 # 	tb_hwpe
-# End time: 05:13:49 on Jun 16,2023, Elapsed time: 0:00:00
+# End time: 16:35:15 on Jun 20,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0, Suppressed Warnings: 2
 # QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
-# Start time: 05:13:49 on Jun 16,2023
+# Start time: 16:35:15 on Jun 20,2023
 # vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" "+incdir+/home/youssef/riscv/hwpe-tb/hw/ips/matrix_inversion/rtl" /home/youssef/riscv/hwpe-tb/hw/ips/matrix_inversion/rtl/cordic_block.v /home/youssef/riscv/hwpe-tb/hw/ips/matrix_inversion/rtl/cordic_rotating.v /home/youssef/riscv/hwpe-tb/hw/ips/matrix_inversion/rtl/cordic_vectoring.v /home/youssef/riscv/hwpe-tb/hw/ips/matrix_inversion/rtl/multiply.v /home/youssef/riscv/hwpe-tb/hw/ips/matrix_inversion/rtl/matrix_inversion.v /home/youssef/riscv/hwpe-tb/hw/ips/matrix_inversion/rtl/mat_inv_top.sv 
 # -- Compiling module cordic_block
 # -- Compiling module cordic_rotating
@@ -432,6 +423,26 @@
 # 
 # Top level modules:
 # 	mat_inv_top
-# End time: 05:13:50 on Jun 16,2023, Elapsed time: 0:00:01
+# End time: 16:35:15 on Jun 20,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim vlog 2023.1 Compiler 2023.01 Jan 23 2023
+# Start time: 16:35:15 on Jun 20,2023
+# vlog -incr -sv -suppress 2583 -suppress 13314 "+define+TARGET_RTL" "+define+TARGET_SIMULATION" "+define+TARGET_TEST" "+define+TARGET_VSIM" "+incdir+/home/youssef/riscv/hwpe-tb/hw/ips/farrow_filter/rtl" /home/youssef/riscv/hwpe-tb/hw/ips/farrow_filter/rtl/sub.v /home/youssef/riscv/hwpe-tb/hw/ips/farrow_filter/rtl/adder.v /home/youssef/riscv/hwpe-tb/hw/ips/farrow_filter/rtl/shifter.v /home/youssef/riscv/hwpe-tb/hw/ips/farrow_filter/rtl/coff_process.v /home/youssef/riscv/hwpe-tb/hw/ips/farrow_filter/rtl/mul_pipelined_param.v /home/youssef/riscv/hwpe-tb/hw/ips/farrow_filter/rtl/delay_unit.v /home/youssef/riscv/hwpe-tb/hw/ips/farrow_filter/rtl/delay_train.v /home/youssef/riscv/hwpe-tb/hw/ips/farrow_filter/rtl/delay_train_transpose_asym.v /home/youssef/riscv/hwpe-tb/hw/ips/farrow_filter/rtl/delay_train_transpose_sym.v /home/youssef/riscv/hwpe-tb/hw/ips/farrow_filter/rtl/fir_asym.v /home/youssef/riscv/hwpe-tb/hw/ips/farrow_filter/rtl/fir_sym.v /home/youssef/riscv/hwpe-tb/hw/ips/farrow_filter/rtl/farrow_third_sopot.v 
+# -- Compiling module sub
+# -- Compiling module add
+# -- Compiling module shifter
+# -- Compiling module coff_process
+# -- Compiling module mul_fixed_pipe_param
+# -- Compiling module delay_unit
+# -- Compiling module delay_train
+# -- Compiling module delay_train_transpose_asymetric
+# -- Compiling module delay_train_transpose_symetric
+# -- Compiling module asymetric_fir
+# -- Compiling module symetric_fir
+# -- Compiling module farrow_third_sopot
+# 
+# Top level modules:
+# 	farrow_third_sopot
+# End time: 16:35:16 on Jun 20,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 #  quit

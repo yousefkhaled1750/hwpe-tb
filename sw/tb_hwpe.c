@@ -31,10 +31,16 @@
 #include "inc/mat_in.h"
 #include "inc/mat_out.h"
 
+#include "inc/farrow_in.h"
+#include "inc/farrow_out.h"
+
 int main() {
 
-  uint8_t *a = mat_stim_in;
-  uint8_t *d = mat_stim_out;
+ uint8_t *a = farrow_stim_in;
+ uint8_t *d = farrow_stim_out;
+
+  // uint8_t *a = mat_stim_in;
+  // uint8_t *d = mat_stim_out;
 //  uint8_t *a = stim_a;
 //  uint8_t *b = stim_b;
 //  uint8_t *c = stim_c;
@@ -45,6 +51,10 @@ int main() {
   int i,j;
   
   int offload_id_tmp, offload_id;
+
+  int mu_value = 0x00000a57;
+  
+
 
   /* convolution-accumulation - HW */
 
@@ -74,10 +84,10 @@ int main() {
   //hwpe_len_iter_set(32-1);
   //hwpe_vectstride_set(32*4);
   hwpe_nb_iter_set(1);
-  hwpe_len_iter_set(9-1);
-  hwpe_vectstride_set(9*4);
+  hwpe_len_iter_set(50-1);
+  hwpe_vectstride_set(50*4);
   //hwpe_shift_simplemul_set(hwpe_shift_simplemul_value(0, 0)); //simple_mul and shift = 0
-
+  hwpe_mu_set(mu_value);
   // start hwpe operation
   hwpe_trigger_job();
 
@@ -92,15 +102,15 @@ int main() {
   //if(((uint32_t *) d)[1] != 0x23a7d5c2) errors++;
   //if(((uint32_t *) d)[2] != 0x7f281848) errors++;
   //if(((uint32_t *) d)[3] != 0x6127d834) errors++;
-  if(((uint32_t *) d)[0] != 0x000065eC) errors++;
-  if(((uint32_t *) d)[1] != 0x00FE295C) errors++;
-  if(((uint32_t *) d)[2] != 0x0001918D) errors++;
-  if(((uint32_t *) d)[3] != 0x00FE295C) errors++;
-  if(((uint32_t *) d)[4] != 0x000AD944) errors++;
-  if(((uint32_t *) d)[5] != 0x00F588C6) errors++;
-  if(((uint32_t *) d)[6] != 0x0001918D) errors++;
-  if(((uint32_t *) d)[7] != 0x00F588C6) errors++;
-  if(((uint32_t *) d)[7] != 0x000BC151) errors++;
+  if(((uint32_t *) d)[0] != 0x00000027) errors++;
+  if(((uint32_t *) d)[1] != 0xffffffbd) errors++;
+  if(((uint32_t *) d)[2] != 0x0000007e) errors++;
+  if(((uint32_t *) d)[3] != 0xfffffcc7) errors++;
+  if(((uint32_t *) d)[4] != 0xffffea78) errors++;
+  if(((uint32_t *) d)[5] != 0xfffff73b) errors++;
+  if(((uint32_t *) d)[6] != 0xfffff85b) errors++;
+  if(((uint32_t *) d)[7] != 0xffffec7f) errors++;
+  if(((uint32_t *) d)[8] != 0x00000b2d) errors++;
 
 
 
@@ -113,15 +123,15 @@ int main() {
   //printf("d[0]=%d\n", ((uint32_t *) d)[3]);
   //printf("d[0]=%d\n", ((uint32_t *) d)[4]);
 
-  printf("d[0]=%d\n", ((uint32_t *) d)[0]);
-  printf("d[1]=%d\n", ((uint32_t *) d)[1]);
-  printf("d[2]=%d\n", ((uint32_t *) d)[2]);
-  printf("d[3]=%d\n", ((uint32_t *) d)[3]);
-  printf("d[4]=%d\n", ((uint32_t *) d)[4]);
-  printf("d[5]=%d\n", ((uint32_t *) d)[5]);
-  printf("d[6]=%d\n", ((uint32_t *) d)[6]);
-  printf("d[7]=%d\n", ((uint32_t *) d)[7]);
-  printf("d[8]=%d\n", ((uint32_t *) d)[8]);
+  printf("d[0]=%x\n", ((uint32_t *) d)[0]);
+  printf("d[1]=%x\n", ((uint32_t *) d)[1]);
+  printf("d[2]=%x\n", ((uint32_t *) d)[2]);
+  printf("d[3]=%x\n", ((uint32_t *) d)[3]);
+  printf("d[4]=%x\n", ((uint32_t *) d)[4]);
+  printf("d[5]=%x\n", ((uint32_t *) d)[5]);
+  printf("d[6]=%x\n", ((uint32_t *) d)[6]);
+  printf("d[7]=%x\n", ((uint32_t *) d)[7]);
+  printf("d[8]=%x\n", ((uint32_t *) d)[8]);
 
 
   // return errors

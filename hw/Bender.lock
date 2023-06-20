@@ -5,6 +5,12 @@ packages:
     source:
       Path: ips/common_verification
     dependencies: []
+  farrow_filter:
+    revision: null
+    version: null
+    source:
+      Path: ips/farrow_filter
+    dependencies: []
   hwpe-ctrl:
     revision: null
     version: null
@@ -18,9 +24,9 @@ packages:
     source:
       Path: ips/hwpe-mac-engine
     dependencies:
+    - farrow_filter
     - hwpe-ctrl
     - hwpe-stream
-    - matrix_inversion
   hwpe-stream:
     revision: null
     version: null
@@ -28,12 +34,6 @@ packages:
       Path: ips/hwpe-stream
     dependencies:
     - tech_cells_generic
-  matrix_inversion:
-    revision: null
-    version: null
-    source:
-      Path: ips/matrix_inversion
-    dependencies: []
   scm:
     revision: null
     version: null

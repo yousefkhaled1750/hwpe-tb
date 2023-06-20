@@ -89,7 +89,8 @@
 #define HWPE_D_ADDR          0x4c
 #define HWPE_NB_ITER         0x50
 #define HWPE_LEN_ITER        0x54
-#define HWPE_SHIFT_SIMPLEMUL 0x58
+//#define HWPE_SHIFT_SIMPLEMUL 0x58
+#define HWPE_MU 0x58
 #define HWPE_VECTSTRIDE      0x5c
 #define HWPE_VECTSTRIDE2     0x60
 
